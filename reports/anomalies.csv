@@ -1,0 +1,971 @@
+﻿id_bien,source,ligne_source,code_regle,regle,gravite,champ,valeur,detail_conversion,motif
+plateforme:PLT-00062,plateforme,62,B03,prix_ou_loyer_positif,bloquante,montant,à négocier,non_numerique,Prix (vente) ou loyer (location) numérique strictement positif
+plateforme:PLT-00085,plateforme,85,B03,prix_ou_loyer_positif,bloquante,montant,à négocier,non_numerique,Prix (vente) ou loyer (location) numérique strictement positif
+plateforme:PLT-00222,plateforme,222,B03,prix_ou_loyer_positif,bloquante,montant,à négocier,non_numerique,Prix (vente) ou loyer (location) numérique strictement positif
+plateforme:PLT-00676,plateforme,676,B03,prix_ou_loyer_positif,bloquante,montant,à négocier,non_numerique,Prix (vente) ou loyer (location) numérique strictement positif
+plateforme:PLT-00712,plateforme,712,B03,prix_ou_loyer_positif,bloquante,montant,à négocier,non_numerique,Prix (vente) ou loyer (location) numérique strictement positif
+agence:AGT-00950,agence,130,B03,prix_ou_loyer_positif,bloquante,montant,0,conforme,Prix (vente) ou loyer (location) numérique strictement positif
+agence:AGT-00994,agence,174,B03,prix_ou_loyer_positif,bloquante,montant,0,conforme,Prix (vente) ou loyer (location) numérique strictement positif
+agence:AGT-01044,agence,224,B03,prix_ou_loyer_positif,bloquante,montant,0,conforme,Prix (vente) ou loyer (location) numérique strictement positif
+agence:AGT-01302,agence,482,B03,prix_ou_loyer_positif,bloquante,montant,0,conforme,Prix (vente) ou loyer (location) numérique strictement positif
+agence:AGT-01342,agence,522,B03,prix_ou_loyer_positif,bloquante,montant,0,conforme,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01472,particuliers,12,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01477,particuliers,17,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01485,particuliers,25,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01496,particuliers,36,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01499,particuliers,39,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01503,particuliers,43,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01517,particuliers,57,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01523,particuliers,63,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01529,particuliers,69,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01530,particuliers,70,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01537,particuliers,77,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01563,particuliers,103,B03,prix_ou_loyer_positif,bloquante,montant,None FCFA,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01592,particuliers,132,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01599,particuliers,139,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01619,particuliers,159,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01632,particuliers,172,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01642,particuliers,182,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01644,particuliers,184,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01646,particuliers,186,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01649,particuliers,189,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01665,particuliers,205,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01690,particuliers,230,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01709,particuliers,249,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01719,particuliers,259,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01720,particuliers,260,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01724,particuliers,264,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01736,particuliers,276,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01739,particuliers,279,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01754,particuliers,294,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01761,particuliers,301,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01765,particuliers,305,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01773,particuliers,313,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01782,particuliers,322,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01791,particuliers,331,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01816,particuliers,356,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01836,particuliers,376,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01838,particuliers,378,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01842,particuliers,382,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01843,particuliers,383,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01855,particuliers,395,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01861,particuliers,401,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01864,particuliers,404,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01876,particuliers,416,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01942,particuliers,482,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01966,particuliers,506,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01975,particuliers,515,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01990,particuliers,530,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01992,particuliers,532,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-01993,particuliers,533,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02001,particuliers,541,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02018,particuliers,558,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02020,particuliers,560,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02030,particuliers,570,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02043,particuliers,583,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02046,particuliers,586,B03,prix_ou_loyer_positif,bloquante,montant,None FCFA,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02050,particuliers,590,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02074,particuliers,614,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02093,particuliers,633,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02113,particuliers,653,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02122,particuliers,662,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02137,particuliers,677,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02139,particuliers,679,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+particuliers:PRT-02167,particuliers,707,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02208,notaires,17,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02245,notaires,54,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02250,notaires,59,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02285,notaires,94,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02314,notaires,123,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02330,notaires,139,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02361,notaires,170,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02362,notaires,171,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02400,notaires,209,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02428,notaires,237,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02474,notaires,283,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02475,notaires,284,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02484,notaires,293,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+notaires:NOT-02556,notaires,365,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0072,historique,72,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0128,historique,128,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0251,historique,251,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0269,historique,269,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0325,historique,325,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0372,historique,372,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0423,historique,423,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0430,historique,430,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0478,historique,478,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+historique:HIS-0506,historique,506,B03,prix_ou_loyer_positif,bloquante,montant,,manquant,Prix (vente) ou loyer (location) numérique strictement positif
+plateforme:PLT-00211,plateforme,211,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+plateforme:PLT-00249,plateforme,249,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+plateforme:PLT-00507,plateforme,507,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+plateforme:PLT-00687,plateforme,687,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+plateforme:PLT-00729,plateforme,729,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+agence:AGT-00826,agence,6,B04,surface_positive,bloquante,surface_m2,-30,negatif,Surface numérique strictement positive
+agence:AGT-01065,agence,245,B04,surface_positive,bloquante,surface_m2,-25,negatif,Surface numérique strictement positive
+agence:AGT-01238,agence,418,B04,surface_positive,bloquante,surface_m2,-30,negatif,Surface numérique strictement positive
+agence:AGT-01356,agence,536,B04,surface_positive,bloquante,surface_m2,-12,negatif,Surface numérique strictement positive
+particuliers:PRT-01464,particuliers,4,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01468,particuliers,8,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01471,particuliers,11,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01476,particuliers,16,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01484,particuliers,24,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01520,particuliers,60,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01526,particuliers,66,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01527,particuliers,67,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01535,particuliers,75,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01536,particuliers,76,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01545,particuliers,85,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01548,particuliers,88,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01550,particuliers,90,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01565,particuliers,105,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01571,particuliers,111,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01573,particuliers,113,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01581,particuliers,121,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01586,particuliers,126,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01593,particuliers,133,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01617,particuliers,157,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01629,particuliers,169,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01630,particuliers,170,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01665,particuliers,205,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01680,particuliers,220,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01709,particuliers,249,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01712,particuliers,252,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01721,particuliers,261,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01727,particuliers,267,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01754,particuliers,294,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01755,particuliers,295,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01759,particuliers,299,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01761,particuliers,301,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01774,particuliers,314,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01777,particuliers,317,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01798,particuliers,338,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01814,particuliers,354,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01817,particuliers,357,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01823,particuliers,363,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01831,particuliers,371,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01845,particuliers,385,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01862,particuliers,402,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01874,particuliers,414,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01883,particuliers,423,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01903,particuliers,443,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01920,particuliers,460,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01924,particuliers,464,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01945,particuliers,485,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01956,particuliers,496,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01962,particuliers,502,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01985,particuliers,525,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01986,particuliers,526,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01995,particuliers,535,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-01996,particuliers,536,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02000,particuliers,540,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02002,particuliers,542,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02012,particuliers,552,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02020,particuliers,560,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02026,particuliers,566,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02027,particuliers,567,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02035,particuliers,575,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02041,particuliers,581,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02046,particuliers,586,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02054,particuliers,594,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02091,particuliers,631,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02118,particuliers,658,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02123,particuliers,663,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02124,particuliers,664,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02125,particuliers,665,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02135,particuliers,675,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02140,particuliers,680,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02148,particuliers,688,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02154,particuliers,694,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02162,particuliers,702,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02169,particuliers,709,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+particuliers:PRT-02186,particuliers,726,B04,surface_positive,bloquante,surface_m2,,manquant,Surface numérique strictement positive
+notaires:NOT-02394,notaires,203,B05,date_interpretable,bloquante,date_collecte,32/13/2024,impossible,Date lisible et possible (pas 32/13/2024)
+notaires:NOT-02396,notaires,205,B05,date_interpretable,bloquante,date_collecte,32/13/2024,impossible,Date lisible et possible (pas 32/13/2024)
+notaires:NOT-02441,notaires,250,B05,date_interpretable,bloquante,date_collecte,32/13/2024,impossible,Date lisible et possible (pas 32/13/2024)
+notaires:NOT-02559,notaires,368,B05,date_interpretable,bloquante,date_collecte,32/13/2024,impossible,Date lisible et possible (pas 32/13/2024)
+notaires:NOT-02565,notaires,374,B05,date_interpretable,bloquante,date_collecte,32/13/2024,impossible,Date lisible et possible (pas 32/13/2024)
+notaires:NOT-02584,notaires,393,B05,date_interpretable,bloquante,date_collecte,32/13/2024,impossible,Date lisible et possible (pas 32/13/2024)
+plateforme:PLT-00014,plateforme,14,B06,date_non_future,bloquante,date_collecte,2028-12-01,,Date non postérieure à la date d'exécution
+plateforme:PLT-00077,plateforme,77,B06,date_non_future,bloquante,date_collecte,2028-12-01,,Date non postérieure à la date d'exécution
+plateforme:PLT-00395,plateforme,395,B06,date_non_future,bloquante,date_collecte,2028-12-01,,Date non postérieure à la date d'exécution
+plateforme:PLT-00572,plateforme,572,B06,date_non_future,bloquante,date_collecte,2028-12-01,,Date non postérieure à la date d'exécution
+plateforme:PLT-00753,plateforme,753,B06,date_non_future,bloquante,date_collecte,2028-12-01,,Date non postérieure à la date d'exécution
+agence:AGT-00834,agence,14,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00836,agence,16,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00841,agence,21,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00852,agence,32,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00870,agence,50,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00878,agence,58,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00880,agence,60,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00882,agence,62,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00896,agence,76,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00900,agence,80,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00904,agence,84,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00906,agence,86,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00910,agence,90,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00916,agence,96,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00920,agence,100,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00924,agence,104,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00926,agence,106,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00930,agence,110,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00935,agence,115,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00936,agence,116,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00940,agence,120,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00942,agence,122,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00943,agence,123,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00975,agence,155,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00981,agence,161,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00990,agence,170,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00994,agence,174,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00996,agence,176,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-00999,agence,179,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01002,agence,182,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01004,agence,184,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01015,agence,195,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01037,agence,217,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01056,agence,236,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01058,agence,238,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01059,agence,239,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01062,agence,242,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01064,agence,244,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01089,agence,269,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01092,agence,272,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01093,agence,273,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01100,agence,280,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01109,agence,289,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01114,agence,294,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01115,agence,295,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01116,agence,296,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01121,agence,301,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01126,agence,306,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01129,agence,309,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01130,agence,310,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01132,agence,312,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01140,agence,320,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01144,agence,324,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01145,agence,325,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01152,agence,332,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01155,agence,335,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01159,agence,339,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01163,agence,343,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01168,agence,348,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01176,agence,356,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01182,agence,362,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01184,agence,364,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01186,agence,366,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01191,agence,371,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01192,agence,372,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01219,agence,399,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01220,agence,400,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01233,agence,413,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01237,agence,417,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01241,agence,421,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01246,agence,426,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01250,agence,430,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01256,agence,436,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01261,agence,441,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01263,agence,443,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01268,agence,448,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01274,agence,454,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01281,agence,461,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01283,agence,463,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01289,agence,469,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01291,agence,471,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01299,agence,479,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01302,agence,482,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01303,agence,483,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01313,agence,493,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01314,agence,494,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01315,agence,495,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01318,agence,498,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01323,agence,503,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01327,agence,507,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01332,agence,512,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01341,agence,521,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01355,agence,535,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01362,agence,542,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01377,agence,557,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01388,agence,568,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01395,agence,575,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01396,agence,576,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01399,agence,579,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01405,agence,585,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01417,agence,597,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01426,agence,606,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01432,agence,612,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01438,agence,618,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01450,agence,630,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01451,agence,631,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01456,agence,636,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+agence:AGT-01460,agence,640,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01464,particuliers,4,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01468,particuliers,8,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01469,particuliers,9,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01470,particuliers,10,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01473,particuliers,13,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01485,particuliers,25,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01491,particuliers,31,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01494,particuliers,34,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01495,particuliers,35,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01496,particuliers,36,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01501,particuliers,41,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01503,particuliers,43,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01505,particuliers,45,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01508,particuliers,48,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01509,particuliers,49,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01516,particuliers,56,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01517,particuliers,57,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01522,particuliers,62,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01525,particuliers,65,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01529,particuliers,69,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01530,particuliers,70,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01534,particuliers,74,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01538,particuliers,78,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01540,particuliers,80,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01541,particuliers,81,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01544,particuliers,84,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01562,particuliers,102,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01569,particuliers,109,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01571,particuliers,111,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01579,particuliers,119,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01586,particuliers,126,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01589,particuliers,129,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01592,particuliers,132,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01593,particuliers,133,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01594,particuliers,134,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01595,particuliers,135,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01598,particuliers,138,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01599,particuliers,139,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01602,particuliers,142,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01607,particuliers,147,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01609,particuliers,149,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01611,particuliers,151,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01612,particuliers,152,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01613,particuliers,153,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01614,particuliers,154,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01616,particuliers,156,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01626,particuliers,166,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01629,particuliers,169,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01632,particuliers,172,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01635,particuliers,175,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01636,particuliers,176,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01642,particuliers,182,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01649,particuliers,189,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01651,particuliers,191,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01654,particuliers,194,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01655,particuliers,195,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01656,particuliers,196,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01659,particuliers,199,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01662,particuliers,202,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01664,particuliers,204,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01667,particuliers,207,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01674,particuliers,214,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01681,particuliers,221,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01693,particuliers,233,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01698,particuliers,238,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01700,particuliers,240,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01701,particuliers,241,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01702,particuliers,242,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01708,particuliers,248,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01709,particuliers,249,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01716,particuliers,256,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01719,particuliers,259,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01720,particuliers,260,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01721,particuliers,261,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01723,particuliers,263,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01728,particuliers,268,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01731,particuliers,271,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01736,particuliers,276,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01737,particuliers,277,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01738,particuliers,278,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01751,particuliers,291,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01753,particuliers,293,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01754,particuliers,294,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01756,particuliers,296,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01758,particuliers,298,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01763,particuliers,303,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01764,particuliers,304,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01770,particuliers,310,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01772,particuliers,312,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01773,particuliers,313,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01774,particuliers,314,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01776,particuliers,316,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01777,particuliers,317,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01778,particuliers,318,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01779,particuliers,319,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01782,particuliers,322,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01783,particuliers,323,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01786,particuliers,326,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01787,particuliers,327,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01792,particuliers,332,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01794,particuliers,334,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01796,particuliers,336,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01797,particuliers,337,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01801,particuliers,341,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01802,particuliers,342,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01818,particuliers,358,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01819,particuliers,359,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01820,particuliers,360,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01822,particuliers,362,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01823,particuliers,363,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01828,particuliers,368,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01829,particuliers,369,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01831,particuliers,371,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01834,particuliers,374,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01835,particuliers,375,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01843,particuliers,383,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01848,particuliers,388,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01856,particuliers,396,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01860,particuliers,400,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01864,particuliers,404,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01867,particuliers,407,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01872,particuliers,412,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01873,particuliers,413,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01874,particuliers,414,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01879,particuliers,419,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01884,particuliers,424,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01886,particuliers,426,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01887,particuliers,427,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01888,particuliers,428,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01898,particuliers,438,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01899,particuliers,439,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01905,particuliers,445,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01907,particuliers,447,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01908,particuliers,448,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01909,particuliers,449,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01910,particuliers,450,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01911,particuliers,451,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01924,particuliers,464,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01930,particuliers,470,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01935,particuliers,475,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01944,particuliers,484,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01945,particuliers,485,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01946,particuliers,486,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01952,particuliers,492,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01956,particuliers,496,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01957,particuliers,497,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01959,particuliers,499,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01962,particuliers,502,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01963,particuliers,503,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01972,particuliers,512,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01974,particuliers,514,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01976,particuliers,516,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01980,particuliers,520,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01981,particuliers,521,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01984,particuliers,524,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-01997,particuliers,537,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02000,particuliers,540,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02003,particuliers,543,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02004,particuliers,544,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02008,particuliers,548,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02010,particuliers,550,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02013,particuliers,553,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02014,particuliers,554,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02015,particuliers,555,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02016,particuliers,556,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02019,particuliers,559,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02021,particuliers,561,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02024,particuliers,564,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02028,particuliers,568,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02031,particuliers,571,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02034,particuliers,574,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02035,particuliers,575,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02037,particuliers,577,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02038,particuliers,578,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02041,particuliers,581,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02042,particuliers,582,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02045,particuliers,585,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02046,particuliers,586,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02047,particuliers,587,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02051,particuliers,591,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02059,particuliers,599,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02060,particuliers,600,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02063,particuliers,603,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02065,particuliers,605,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02066,particuliers,606,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02067,particuliers,607,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02074,particuliers,614,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02080,particuliers,620,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02081,particuliers,621,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02083,particuliers,623,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02086,particuliers,626,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02094,particuliers,634,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02096,particuliers,636,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02098,particuliers,638,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02101,particuliers,641,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02104,particuliers,644,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02105,particuliers,645,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02106,particuliers,646,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02113,particuliers,653,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02116,particuliers,656,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02119,particuliers,659,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02123,particuliers,663,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02126,particuliers,666,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02127,particuliers,667,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02132,particuliers,672,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02133,particuliers,673,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02137,particuliers,677,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02138,particuliers,678,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02141,particuliers,681,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02147,particuliers,687,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02153,particuliers,693,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02156,particuliers,696,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02172,particuliers,712,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02174,particuliers,714,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02176,particuliers,716,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02180,particuliers,720,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02182,particuliers,722,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02188,particuliers,728,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+particuliers:PRT-02189,particuliers,729,A01,periodicite_connue,avertissement,periodicite,,,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)"
+plateforme:PLT-00021,plateforme,21,A04,prix_dans_fourchette_categorie,avertissement,montant,551163000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00046,plateforme,46,A04,prix_dans_fourchette_categorie,avertissement,montant,147.52 millions,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00092,plateforme,92,A04,prix_dans_fourchette_categorie,avertissement,montant,105826000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00115,plateforme,115,A04,prix_dans_fourchette_categorie,avertissement,montant,203343000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00120,plateforme,120,A04,prix_dans_fourchette_categorie,avertissement,montant,132373000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00265,plateforme,265,A04,prix_dans_fourchette_categorie,avertissement,montant,23651000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00277,plateforme,277,A04,prix_dans_fourchette_categorie,avertissement,montant,539747000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00306,plateforme,306,A04,prix_dans_fourchette_categorie,avertissement,montant,48 860 000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00342,plateforme,342,A04,prix_dans_fourchette_categorie,avertissement,montant,125596000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00362,plateforme,362,A04,prix_dans_fourchette_categorie,avertissement,montant,17785000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00464,plateforme,464,A04,prix_dans_fourchette_categorie,avertissement,montant,208177000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00468,plateforme,468,A04,prix_dans_fourchette_categorie,avertissement,montant,143683000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00493,plateforme,493,A04,prix_dans_fourchette_categorie,avertissement,montant,230846000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00501,plateforme,501,A04,prix_dans_fourchette_categorie,avertissement,montant,45107000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00513,plateforme,513,A04,prix_dans_fourchette_categorie,avertissement,montant,229641000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00634,plateforme,634,A04,prix_dans_fourchette_categorie,avertissement,montant,45453000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00636,plateforme,636,A04,prix_dans_fourchette_categorie,avertissement,montant,58543000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00663,plateforme,663,A04,prix_dans_fourchette_categorie,avertissement,montant,340802000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00735,plateforme,735,A04,prix_dans_fourchette_categorie,avertissement,montant,117 965 000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00783,plateforme,783,A04,prix_dans_fourchette_categorie,avertissement,montant,238173000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00797,plateforme,797,A04,prix_dans_fourchette_categorie,avertissement,montant,211701000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-00827,agence,7,A04,prix_dans_fourchette_categorie,avertissement,montant,209108000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-00843,agence,23,A04,prix_dans_fourchette_categorie,avertissement,montant,468742000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-00946,agence,126,A04,prix_dans_fourchette_categorie,avertissement,montant,121992000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-00967,agence,147,A04,prix_dans_fourchette_categorie,avertissement,montant,237871000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01035,agence,215,A04,prix_dans_fourchette_categorie,avertissement,montant,59204000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01036,agence,216,A04,prix_dans_fourchette_categorie,avertissement,montant,120545000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01134,agence,314,A04,prix_dans_fourchette_categorie,avertissement,montant,102508000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01185,agence,365,A04,prix_dans_fourchette_categorie,avertissement,montant,189862000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01208,agence,388,A04,prix_dans_fourchette_categorie,avertissement,montant,140532000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01245,agence,425,A04,prix_dans_fourchette_categorie,avertissement,montant,49606000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01292,agence,472,A04,prix_dans_fourchette_categorie,avertissement,montant,536187000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01348,agence,528,A04,prix_dans_fourchette_categorie,avertissement,montant,126607000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01366,agence,546,A04,prix_dans_fourchette_categorie,avertissement,montant,47669000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01383,agence,563,A04,prix_dans_fourchette_categorie,avertissement,montant,46212000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01390,agence,570,A04,prix_dans_fourchette_categorie,avertissement,montant,183518000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01397,agence,577,A04,prix_dans_fourchette_categorie,avertissement,montant,135894000,,Prix de vente dans la fourchette de sa catégorie
+agence:AGT-01448,agence,628,A04,prix_dans_fourchette_categorie,avertissement,montant,117244000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01475,particuliers,15,A04,prix_dans_fourchette_categorie,avertissement,montant,141365000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01483,particuliers,23,A04,prix_dans_fourchette_categorie,avertissement,montant,227714000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01615,particuliers,155,A04,prix_dans_fourchette_categorie,avertissement,montant,144605000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01633,particuliers,173,A04,prix_dans_fourchette_categorie,avertissement,montant,130759000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01697,particuliers,237,A04,prix_dans_fourchette_categorie,avertissement,montant,59263000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01735,particuliers,275,A04,prix_dans_fourchette_categorie,avertissement,montant,490740000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01752,particuliers,292,A04,prix_dans_fourchette_categorie,avertissement,montant,145033000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01781,particuliers,321,A04,prix_dans_fourchette_categorie,avertissement,montant,153109000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01929,particuliers,469,A04,prix_dans_fourchette_categorie,avertissement,montant,128147000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01932,particuliers,472,A04,prix_dans_fourchette_categorie,avertissement,montant,216337000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01954,particuliers,494,A04,prix_dans_fourchette_categorie,avertissement,montant,460341000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01965,particuliers,505,A04,prix_dans_fourchette_categorie,avertissement,montant,160022000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-01994,particuliers,534,A04,prix_dans_fourchette_categorie,avertissement,montant,510157000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-02011,particuliers,551,A04,prix_dans_fourchette_categorie,avertissement,montant,145635000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-02150,particuliers,690,A04,prix_dans_fourchette_categorie,avertissement,montant,104069000,,Prix de vente dans la fourchette de sa catégorie
+particuliers:PRT-02168,particuliers,708,A04,prix_dans_fourchette_categorie,avertissement,montant,206786000,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02210,notaires,19,A04,prix_dans_fourchette_categorie,avertissement,montant,521391000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02235,notaires,44,A04,prix_dans_fourchette_categorie,avertissement,montant,132098000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02272,notaires,81,A04,prix_dans_fourchette_categorie,avertissement,montant,497845000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02281,notaires,90,A04,prix_dans_fourchette_categorie,avertissement,montant,471218000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02311,notaires,120,A04,prix_dans_fourchette_categorie,avertissement,montant,567559000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02342,notaires,151,A04,prix_dans_fourchette_categorie,avertissement,montant,560980000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02366,notaires,175,A04,prix_dans_fourchette_categorie,avertissement,montant,539769000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02393,notaires,202,A04,prix_dans_fourchette_categorie,avertissement,montant,189032000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02408,notaires,217,A04,prix_dans_fourchette_categorie,avertissement,montant,560426000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02455,notaires,264,A04,prix_dans_fourchette_categorie,avertissement,montant,183579000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02486,notaires,295,A04,prix_dans_fourchette_categorie,avertissement,montant,56778000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02498,notaires,307,A04,prix_dans_fourchette_categorie,avertissement,montant,216995000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02537,notaires,346,A04,prix_dans_fourchette_categorie,avertissement,montant,481452000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02557,notaires,366,A04,prix_dans_fourchette_categorie,avertissement,montant,121510000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02576,notaires,385,A04,prix_dans_fourchette_categorie,avertissement,montant,525368000.0,,Prix de vente dans la fourchette de sa catégorie
+notaires:NOT-02599,notaires,408,A04,prix_dans_fourchette_categorie,avertissement,montant,133102000.0,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0029,historique,29,A04,prix_dans_fourchette_categorie,avertissement,montant,207 656 000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0097,historique,97,A04,prix_dans_fourchette_categorie,avertissement,montant,47469000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0105,historique,105,A04,prix_dans_fourchette_categorie,avertissement,montant,217 182 000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0107,historique,107,A04,prix_dans_fourchette_categorie,avertissement,montant,185155000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0237,historique,237,A04,prix_dans_fourchette_categorie,avertissement,montant,144178000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0240,historique,240,A04,prix_dans_fourchette_categorie,avertissement,montant,109288000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0262,historique,262,A04,prix_dans_fourchette_categorie,avertissement,montant,197 933 000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0267,historique,267,A04,prix_dans_fourchette_categorie,avertissement,montant,153991000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0330,historique,330,A04,prix_dans_fourchette_categorie,avertissement,montant,126 021 000,,Prix de vente dans la fourchette de sa catégorie
+historique:HIS-0499,historique,499,A04,prix_dans_fourchette_categorie,avertissement,montant,210826000,,Prix de vente dans la fourchette de sa catégorie
+plateforme:PLT-00193,plateforme,193,A06,surface_dans_fourchette_categorie,avertissement,surface_m2,1250.0,,Surface dans la fourchette de sa catégorie
+plateforme:PLT-00480,plateforme,480,A06,surface_dans_fourchette_categorie,avertissement,surface_m2,219.9,,Surface dans la fourchette de sa catégorie
+plateforme:PLT-00663,plateforme,663,A06,surface_dans_fourchette_categorie,avertissement,surface_m2,389.7,,Surface dans la fourchette de sa catégorie
+particuliers:PRT-01778,particuliers,318,A06,surface_dans_fourchette_categorie,avertissement,surface_m2,quatre-vingt,,Surface dans la fourchette de sa catégorie
+particuliers:PRT-01802,particuliers,342,A06,surface_dans_fourchette_categorie,avertissement,surface_m2,quatre-vingt,,Surface dans la fourchette de sa catégorie
+particuliers:PRT-01952,particuliers,492,A06,surface_dans_fourchette_categorie,avertissement,surface_m2,quatre-vingt,,Surface dans la fourchette de sa catégorie
+agence:AGT-01035,agence,215,A07,prix_m2_dans_plage_referentiel,avertissement,prix_m2,2691090.909090909,,Prix au m² dans la plage déduite du référentiel
+particuliers:PRT-01781,particuliers,321,A07,prix_m2_dans_plage_referentiel,avertissement,prix_m2,3169958.5921325055,,Prix au m² dans la plage déduite du référentiel
+notaires:NOT-02393,notaires,202,A07,prix_m2_dans_plage_referentiel,avertissement,prix_m2,3114200.9884678745,,Prix au m² dans la plage déduite du référentiel
+notaires:NOT-02576,notaires,385,A07,prix_m2_dans_plage_referentiel,avertissement,prix_m2,3908988.095238095,,Prix au m² dans la plage déduite du référentiel
+plateforme:PLT-00081,plateforme,81,A08,prix_m2_non_atypique,avertissement,prix_m2,1852609.3294460643,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00113,plateforme,113,A08,prix_m2_non_atypique,avertissement,prix_m2,322720.5882352941,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00117,plateforme,117,A08,prix_m2_non_atypique,avertissement,prix_m2,2010778.7810383749,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00162,plateforme,162,A08,prix_m2_non_atypique,avertissement,prix_m2,251760.52163604033,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00185,plateforme,185,A08,prix_m2_non_atypique,avertissement,prix_m2,2486272.577996716,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00306,plateforme,306,A08,prix_m2_non_atypique,avertissement,prix_m2,1931225.2964426877,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00323,plateforme,323,A08,prix_m2_non_atypique,avertissement,prix_m2,1716979.7225186767,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00344,plateforme,344,A08,prix_m2_non_atypique,avertissement,prix_m2,1716214.196762142,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00388,plateforme,388,A08,prix_m2_non_atypique,avertissement,prix_m2,1832696.0784313728,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00423,plateforme,423,A08,prix_m2_non_atypique,avertissement,prix_m2,2080311.475409836,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00443,plateforme,443,A08,prix_m2_non_atypique,avertissement,prix_m2,287847.1711976488,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00444,plateforme,444,A08,prix_m2_non_atypique,avertissement,prix_m2,3038844.5378151257,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00496,plateforme,496,A08,prix_m2_non_atypique,avertissement,prix_m2,2066034.7322720697,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00497,plateforme,497,A08,prix_m2_non_atypique,avertissement,prix_m2,1726722.6890756302,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00498,plateforme,498,A08,prix_m2_non_atypique,avertissement,prix_m2,2846225.2663622526,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00513,plateforme,513,A08,prix_m2_non_atypique,avertissement,prix_m2,1696019.2023633677,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00582,plateforme,582,A08,prix_m2_non_atypique,avertissement,prix_m2,2581614.49752883,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00606,plateforme,606,A08,prix_m2_non_atypique,avertissement,prix_m2,2188195.0207468877,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00610,plateforme,610,A08,prix_m2_non_atypique,avertissement,prix_m2,2109836.9565217393,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00646,plateforme,646,A08,prix_m2_non_atypique,avertissement,prix_m2,1709669.9029126214,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00653,plateforme,653,A08,prix_m2_non_atypique,avertissement,prix_m2,2541439.06020558,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00669,plateforme,669,A08,prix_m2_non_atypique,avertissement,prix_m2,2383648.068669528,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00703,plateforme,703,A08,prix_m2_non_atypique,avertissement,prix_m2,496050.321825629,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00717,plateforme,717,A08,prix_m2_non_atypique,avertissement,prix_m2,260301.93236714977,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00735,plateforme,735,A08,prix_m2_non_atypique,avertissement,prix_m2,676017.1919770774,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00739,plateforme,739,A08,prix_m2_non_atypique,avertissement,prix_m2,1743300.4926108373,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00740,plateforme,740,A08,prix_m2_non_atypique,avertissement,prix_m2,2712028.9855072466,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00741,plateforme,741,A08,prix_m2_non_atypique,avertissement,prix_m2,334099.7706422018,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00763,plateforme,763,A08,prix_m2_non_atypique,avertissement,prix_m2,1936759.4433399604,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-02618,plateforme,829,A08,prix_m2_non_atypique,avertissement,prix_m2,1670134.5755693582,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-02660,plateforme,850,A08,prix_m2_non_atypique,avertissement,prix_m2,2832749.410840534,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-02662,plateforme,851,A08,prix_m2_non_atypique,avertissement,prix_m2,751342.6853707415,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00822,agence,2,A08,prix_m2_non_atypique,avertissement,prix_m2,269415.18202943454,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00853,agence,33,A08,prix_m2_non_atypique,avertissement,prix_m2,440742.1383647799,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00909,agence,89,A08,prix_m2_non_atypique,avertissement,prix_m2,2141209.3862815886,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00944,agence,124,A08,prix_m2_non_atypique,avertissement,prix_m2,765068.6106346484,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00946,agence,126,A08,prix_m2_non_atypique,avertissement,prix_m2,1990081.5660685156,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00947,agence,127,A08,prix_m2_non_atypique,avertissement,prix_m2,1812362.288135593,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00958,agence,138,A08,prix_m2_non_atypique,avertissement,prix_m2,322779.0014684288,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-00978,agence,158,A08,prix_m2_non_atypique,avertissement,prix_m2,1859036.6088631984,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01009,agence,189,A08,prix_m2_non_atypique,avertissement,prix_m2,2345958.795562599,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01010,agence,190,A08,prix_m2_non_atypique,avertissement,prix_m2,2038611.1111111112,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01026,agence,206,A08,prix_m2_non_atypique,avertissement,prix_m2,1836330.2752293576,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01035,agence,215,A08,prix_m2_non_atypique,avertissement,prix_m2,2691090.909090909,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01134,agence,314,A08,prix_m2_non_atypique,avertissement,prix_m2,528664.2599277978,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01139,agence,319,A08,prix_m2_non_atypique,avertissement,prix_m2,264224.9698431845,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01175,agence,355,A08,prix_m2_non_atypique,avertissement,prix_m2,3197083.0271858927,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01185,agence,365,A08,prix_m2_non_atypique,avertissement,prix_m2,2179816.303099885,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01209,agence,389,A08,prix_m2_non_atypique,avertissement,prix_m2,2252889.20056101,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01213,agence,393,A08,prix_m2_non_atypique,avertissement,prix_m2,1767125.9842519686,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01235,agence,415,A08,prix_m2_non_atypique,avertissement,prix_m2,598578.947368421,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01257,agence,437,A08,prix_m2_non_atypique,avertissement,prix_m2,2381802.935010482,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01403,agence,583,A08,prix_m2_non_atypique,avertissement,prix_m2,287393.7677053825,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+agence:AGT-01406,agence,586,A08,prix_m2_non_atypique,avertissement,prix_m2,1807816.377171216,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01578,particuliers,118,A08,prix_m2_non_atypique,avertissement,prix_m2,396799.60610536684,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01610,particuliers,150,A08,prix_m2_non_atypique,avertissement,prix_m2,2625676.077265973,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01618,particuliers,158,A08,prix_m2_non_atypique,avertissement,prix_m2,328799.1927346115,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01643,particuliers,183,A08,prix_m2_non_atypique,avertissement,prix_m2,761296.1011591149,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01781,particuliers,321,A08,prix_m2_non_atypique,avertissement,prix_m2,3169958.5921325055,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01784,particuliers,324,A08,prix_m2_non_atypique,avertissement,prix_m2,2437320.44198895,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01804,particuliers,344,A08,prix_m2_non_atypique,avertissement,prix_m2,241220.28526148968,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01811,particuliers,351,A08,prix_m2_non_atypique,avertissement,prix_m2,471333.78016085795,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01901,particuliers,441,A08,prix_m2_non_atypique,avertissement,prix_m2,1878637.5,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01936,particuliers,476,A08,prix_m2_non_atypique,avertissement,prix_m2,1793355.0488599348,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-01991,particuliers,531,A08,prix_m2_non_atypique,avertissement,prix_m2,1958397.8873239437,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-02022,particuliers,562,A08,prix_m2_non_atypique,avertissement,prix_m2,2017008.8719898604,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-02058,particuliers,598,A08,prix_m2_non_atypique,avertissement,prix_m2,811990.9090909091,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+particuliers:PRT-02151,particuliers,691,A08,prix_m2_non_atypique,avertissement,prix_m2,2035025.817555938,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02223,notaires,32,A08,prix_m2_non_atypique,avertissement,prix_m2,2885783.8224767363,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02226,notaires,35,A08,prix_m2_non_atypique,avertissement,prix_m2,576028.4167794316,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02289,notaires,98,A08,prix_m2_non_atypique,avertissement,prix_m2,2743889.7893030792,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02299,notaires,108,A08,prix_m2_non_atypique,avertissement,prix_m2,2628116.883116883,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02311,notaires,120,A08,prix_m2_non_atypique,avertissement,prix_m2,2711700.907787864,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02367,notaires,176,A08,prix_m2_non_atypique,avertissement,prix_m2,2149746.4342313786,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02385,notaires,194,A08,prix_m2_non_atypique,avertissement,prix_m2,1975524.193548387,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02393,notaires,202,A08,prix_m2_non_atypique,avertissement,prix_m2,3114200.9884678745,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02431,notaires,240,A08,prix_m2_non_atypique,avertissement,prix_m2,1698733.0316742081,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02441,notaires,250,A08,prix_m2_non_atypique,avertissement,prix_m2,2842510.0401606425,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02443,notaires,252,A08,prix_m2_non_atypique,avertissement,prix_m2,1851683.3890746934,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02446,notaires,255,A08,prix_m2_non_atypique,avertissement,prix_m2,1828124.318429662,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02457,notaires,266,A08,prix_m2_non_atypique,avertissement,prix_m2,2983337.912087912,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02527,notaires,336,A08,prix_m2_non_atypique,avertissement,prix_m2,1856364.9851632046,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02564,notaires,373,A08,prix_m2_non_atypique,avertissement,prix_m2,1691767.8812415656,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+notaires:NOT-02576,notaires,385,A08,prix_m2_non_atypique,avertissement,prix_m2,3908988.095238095,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0002,historique,2,A08,prix_m2_non_atypique,avertissement,prix_m2,1700413.2231404958,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0029,historique,29,A08,prix_m2_non_atypique,avertissement,prix_m2,2367799.3158494867,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0040,historique,40,A08,prix_m2_non_atypique,avertissement,prix_m2,2566836.734693878,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0058,historique,58,A08,prix_m2_non_atypique,avertissement,prix_m2,2730083.263946711,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0081,historique,81,A08,prix_m2_non_atypique,avertissement,prix_m2,3413284.823284823,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0122,historique,122,A08,prix_m2_non_atypique,avertissement,prix_m2,532484.7958297133,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0151,historique,151,A08,prix_m2_non_atypique,avertissement,prix_m2,250379.43696450428,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0162,historique,162,A08,prix_m2_non_atypique,avertissement,prix_m2,2250418.326693227,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0165,historique,165,A08,prix_m2_non_atypique,avertissement,prix_m2,3313187.066974596,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0174,historique,174,A08,prix_m2_non_atypique,avertissement,prix_m2,1920971.2230215827,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0210,historique,210,A08,prix_m2_non_atypique,avertissement,prix_m2,2388382.9787234045,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0211,historique,211,A08,prix_m2_non_atypique,avertissement,prix_m2,2291562.5,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0318,historique,318,A08,prix_m2_non_atypique,avertissement,prix_m2,4135138.2488479265,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0324,historique,324,A08,prix_m2_non_atypique,avertissement,prix_m2,834876.5432098765,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0362,historique,362,A08,prix_m2_non_atypique,avertissement,prix_m2,3574844.720496895,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0366,historique,366,A08,prix_m2_non_atypique,avertissement,prix_m2,425292.4791086351,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0398,historique,398,A08,prix_m2_non_atypique,avertissement,prix_m2,1818693.7431394074,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0402,historique,402,A08,prix_m2_non_atypique,avertissement,prix_m2,1535663.7168141592,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0410,historique,410,A08,prix_m2_non_atypique,avertissement,prix_m2,241240.12638230648,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0431,historique,431,A08,prix_m2_non_atypique,avertissement,prix_m2,2940298.2107355865,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0450,historique,450,A08,prix_m2_non_atypique,avertissement,prix_m2,3436735.9667359665,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0459,historique,459,A08,prix_m2_non_atypique,avertissement,prix_m2,2129466.0194174754,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0489,historique,489,A08,prix_m2_non_atypique,avertissement,prix_m2,388916.56288916565,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0491,historique,491,A08,prix_m2_non_atypique,avertissement,prix_m2,1693898.4674329502,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0494,historique,494,A08,prix_m2_non_atypique,avertissement,prix_m2,2581380.530973451,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0499,historique,499,A08,prix_m2_non_atypique,avertissement,prix_m2,4603187.772925764,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+historique:HIS-0507,historique,507,A08,prix_m2_non_atypique,avertissement,prix_m2,1875442.8341384863,,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)
+plateforme:PLT-00013,plateforme,13,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00073,plateforme,73,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00077,plateforme,77,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00083,plateforme,83,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00114,plateforme,114,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00145,plateforme,145,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+plateforme:PLT-00150,plateforme,150,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00168,plateforme,168,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00169,plateforme,169,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00201,plateforme,201,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00211,plateforme,211,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00224,plateforme,224,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00269,plateforme,269,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00293,plateforme,293,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00310,plateforme,310,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+plateforme:PLT-00352,plateforme,352,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00367,plateforme,367,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00372,plateforme,372,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00384,plateforme,384,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00386,plateforme,386,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00401,plateforme,401,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00402,plateforme,402,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00409,plateforme,409,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+plateforme:PLT-00446,plateforme,446,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00448,plateforme,448,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00457,plateforme,457,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00489,plateforme,489,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00502,plateforme,502,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00528,plateforme,528,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00541,plateforme,541,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00546,plateforme,546,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00550,plateforme,550,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+plateforme:PLT-00606,plateforme,606,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00686,plateforme,686,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00692,plateforme,692,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00729,plateforme,729,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00793,plateforme,793,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+plateforme:PLT-00801,plateforme,801,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+plateforme:PLT-00814,plateforme,814,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+agence:AGT-00862,agence,42,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-00908,agence,88,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-00928,agence,108,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+agence:AGT-00939,agence,119,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-00965,agence,145,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-00972,agence,152,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-00996,agence,176,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01032,agence,212,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01098,agence,278,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01106,agence,286,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01119,agence,299,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01120,agence,300,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01210,agence,390,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01213,agence,393,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01243,agence,423,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01267,agence,447,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01278,agence,458,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01289,agence,469,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01293,agence,473,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01307,agence,487,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01311,agence,491,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01418,agence,598,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+agence:AGT-01456,agence,636,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+particuliers:PRT-01462,particuliers,2,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01474,particuliers,14,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+particuliers:PRT-01551,particuliers,91,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+particuliers:PRT-01555,particuliers,95,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+particuliers:PRT-01556,particuliers,96,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01562,particuliers,102,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01580,particuliers,120,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01596,particuliers,136,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01636,particuliers,176,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01652,particuliers,192,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01656,particuliers,196,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+particuliers:PRT-01683,particuliers,223,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01724,particuliers,264,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01741,particuliers,281,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01753,particuliers,293,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+particuliers:PRT-01784,particuliers,324,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01790,particuliers,330,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01823,particuliers,363,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01870,particuliers,410,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01881,particuliers,421,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01899,particuliers,439,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01928,particuliers,468,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+particuliers:PRT-01941,particuliers,481,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01977,particuliers,517,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-01997,particuliers,537,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02056,particuliers,596,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02076,particuliers,616,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02086,particuliers,626,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02089,particuliers,629,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02095,particuliers,635,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02107,particuliers,647,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02163,particuliers,703,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02168,particuliers,708,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+particuliers:PRT-02176,particuliers,716,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0013,historique,13,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0023,historique,23,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0026,historique,26,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0080,historique,80,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0084,historique,84,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0085,historique,85,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0087,historique,87,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0105,historique,105,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0118,historique,118,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0134,historique,134,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0142,historique,142,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0153,historique,153,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0160,historique,160,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0163,historique,163,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0165,historique,165,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0173,historique,173,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0192,historique,192,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0195,historique,195,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0198,historique,198,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0205,historique,205,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0206,historique,206,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0208,historique,208,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0209,historique,209,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0210,historique,210,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0220,historique,220,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0221,historique,221,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0228,historique,228,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0245,historique,245,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0255,historique,255,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0266,historique,266,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0267,historique,267,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0268,historique,268,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0293,historique,293,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0295,historique,295,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0301,historique,301,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0302,historique,302,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0303,historique,303,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0308,historique,308,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0315,historique,315,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0318,historique,318,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0321,historique,321,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0325,historique,325,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0331,historique,331,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0334,historique,334,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0336,historique,336,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0340,historique,340,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0352,historique,352,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0357,historique,357,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0359,historique,359,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0361,historique,361,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0368,historique,368,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0369,historique,369,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0386,historique,386,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0387,historique,387,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0392,historique,392,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0406,historique,406,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0430,historique,430,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0450,historique,450,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0456,historique,456,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0460,historique,460,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0461,historique,461,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0463,historique,463,A12,salles_bain_coherentes,avertissement,salles_bain,4,,Salles de bain <= chambres + 2
+historique:HIS-0500,historique,500,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+historique:HIS-0528,historique,528,A12,salles_bain_coherentes,avertissement,salles_bain,3,,Salles de bain <= chambres + 2
+plateforme:PLT-02602,plateforme,821,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02606,plateforme,823,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02618,plateforme,829,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02620,plateforme,830,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02624,plateforme,832,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02626,plateforme,833,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02648,plateforme,844,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02652,plateforme,846,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02656,plateforme,848,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02660,plateforme,850,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02664,plateforme,852,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02666,plateforme,853,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02676,plateforme,858,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+plateforme:PLT-02680,plateforme,860,A13,pieces_coherentes_type,avertissement,chambres,0,,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre"
+historique:HIS-0022,historique,22,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+historique:HIS-0074,historique,74,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+historique:HIS-0130,historique,130,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+historique:HIS-0140,historique,140,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+historique:HIS-0142,historique,142,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+historique:HIS-0144,historique,144,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+historique:HIS-0219,historique,219,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+historique:HIS-0421,historique,421,A14,ville_reconnue,avertissement,ville,,manquant,Ville renseignée et présente dans le référentiel géographique
+particuliers:PRT-01714,particuliers,254,A16,region_ville_coherentes,avertissement,region,Ziguinchor,,La ville appartient bien à la région indiquée
+particuliers:PRT-01879,particuliers,419,A16,region_ville_coherentes,avertissement,region,Ziguinchor,,La ville appartient bien à la région indiquée
+particuliers:PRT-01999,particuliers,539,A16,region_ville_coherentes,avertissement,region,Ziguinchor,,La ville appartient bien à la région indiquée
+particuliers:PRT-02128,particuliers,668,A16,region_ville_coherentes,avertissement,region,Ziguinchor,,La ville appartient bien à la région indiquée
+plateforme:PLT-00029,plateforme,29,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00064,plateforme,64,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00082,plateforme,82,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00134,plateforme,134,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00241,plateforme,241,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00245,plateforme,245,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00272,plateforme,272,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00338,plateforme,338,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00478,plateforme,478,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00656,plateforme,656,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00779,plateforme,779,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00788,plateforme,788,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00796,plateforme,796,A17,statut_coherent_transaction,avertissement,statut_source,En vente,,Le statut est compatible avec la transaction écrite dans la source
+plateforme:PLT-00014,plateforme,14,A18,dates_coherentes,avertissement,date_expiration,2022-07-25,,La date d'expiration n'est pas antérieure à la mise en ligne
+plateforme:PLT-00077,plateforme,77,A18,dates_coherentes,avertissement,date_expiration,2023-06-11,,La date d'expiration n'est pas antérieure à la mise en ligne
+plateforme:PLT-00395,plateforme,395,A18,dates_coherentes,avertissement,date_expiration,2021-12-02,,La date d'expiration n'est pas antérieure à la mise en ligne
+plateforme:PLT-00572,plateforme,572,A18,dates_coherentes,avertissement,date_expiration,2018-09-26,,La date d'expiration n'est pas antérieure à la mise en ligne
+plateforme:PLT-00753,plateforme,753,A18,dates_coherentes,avertissement,date_expiration,2025-04-29,,La date d'expiration n'est pas antérieure à la mise en ligne
+plateforme:PLT-02602,plateforme,821,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02604,plateforme,822,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02606,plateforme,823,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02608,plateforme,824,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02610,plateforme,825,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02612,plateforme,826,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02614,plateforme,827,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02616,plateforme,828,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02618,plateforme,829,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02620,plateforme,830,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02622,plateforme,831,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02624,plateforme,832,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02626,plateforme,833,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02628,plateforme,834,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02630,plateforme,835,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02632,plateforme,836,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02634,plateforme,837,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02636,plateforme,838,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02638,plateforme,839,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02640,plateforme,840,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02642,plateforme,841,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02644,plateforme,842,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02646,plateforme,843,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02648,plateforme,844,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02650,plateforme,845,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02652,plateforme,846,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02654,plateforme,847,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02656,plateforme,848,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02658,plateforme,849,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02660,plateforme,850,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02662,plateforme,851,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02664,plateforme,852,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02666,plateforme,853,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02668,plateforme,854,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02670,plateforme,855,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02672,plateforme,856,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02674,plateforme,857,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02676,plateforme,858,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02678,plateforme,859,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-02680,plateforme,860,A19,date_non_concentree,avertissement,date_collecte,2024-03-01,,Pas 20 annonces ou plus de la même source le même jour
+plateforme:PLT-00314,plateforme,314,A21,pas_de_conflit_entre_enregistrements,avertissement,id_bien,plateforme:PLT-00314,,"Aucun conflit (même bien, valeurs contradictoires)"
+plateforme:PLT-00587,plateforme,587,A21,pas_de_conflit_entre_enregistrements,avertissement,id_bien,plateforme:PLT-00587,,"Aucun conflit (même bien, valeurs contradictoires)"
+agence:AGT-01179,agence,359,A21,pas_de_conflit_entre_enregistrements,avertissement,id_bien,agence:AGT-01179,,"Aucun conflit (même bien, valeurs contradictoires)"
+particuliers:PRT-01461,particuliers,1,A21,pas_de_conflit_entre_enregistrements,avertissement,id_bien,particuliers:PRT-01461,,"Aucun conflit (même bien, valeurs contradictoires)"
+particuliers:PRT-02191,particuliers,731,A21,pas_de_conflit_entre_enregistrements,avertissement,id_bien,particuliers:PRT-02191,,"Aucun conflit (même bien, valeurs contradictoires)"
+historique:HIS-0071,historique,71,A21,pas_de_conflit_entre_enregistrements,avertissement,id_bien,historique:HIS-0071,,"Aucun conflit (même bien, valeurs contradictoires)"

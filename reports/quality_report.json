@@ -1,0 +1,1377 @@
+{
+  "genere_le": "2026-11-01T22:24:57",
+  "date_reference": "2026-10-29",
+  "definitions": {
+    "recus": "toutes les lignes lues dans les 5 sources",
+    "evalues": "recus - copies exactes",
+    "taux_conformite_regle": "conformes / evaluables x 100 (denominateur indique ; non evaluables comptes a part)",
+    "statuts_finaux": "5 statuts mutuellement exclusifs dont la somme = recus",
+    "taux_exploitable": "(conforme + corrige + conserve_avertissement) / recus x 100",
+    "taux_conforme_strict": "conforme / recus x 100 (aucune correction, aucun avertissement)"
+  },
+  "volumes": {
+    "total_recus": 3184,
+    "total_annonces": 3224,
+    "par_source": {
+      "plateforme": {
+        "recus": 875,
+        "annonces": 875,
+        "ecart": 0
+      },
+      "agence": {
+        "recus": 640,
+        "annonces": 680,
+        "ecart": -40
+      },
+      "particuliers": {
+        "recus": 731,
+        "annonces": 731,
+        "ecart": 0
+      },
+      "notaires": {
+        "recus": 410,
+        "annonces": 410,
+        "ecart": 0
+      },
+      "historique": {
+        "recus": 528,
+        "annonces": 528,
+        "ecart": 0
+      }
+    }
+  },
+  "doublons_exacts": {
+    "nombre": 15,
+    "taux_pct_des_recus": 0.5,
+    "par_source": {
+      "plateforme": 15
+    }
+  },
+  "statuts_finaux": {
+    "nombres": {
+      "conforme": 1393,
+      "corrige": 932,
+      "conserve_avertissement": 658,
+      "quarantaine": 186,
+      "doublon_exact_ecarte": 15
+    },
+    "taux_pct_des_recus": {
+      "conforme": 43.8,
+      "corrige": 29.3,
+      "conserve_avertissement": 20.7,
+      "quarantaine": 5.8,
+      "doublon_exact_ecarte": 0.5
+    },
+    "enregistrements_exploitables": 2983,
+    "taux_exploitable_pct": 93.7,
+    "taux_conforme_strict_pct": 43.8,
+    "par_source": {
+      "agence": {
+        "conforme": 248,
+        "corrige": 222,
+        "conserve_avertissement": 161,
+        "quarantaine": 9,
+        "doublon_exact_ecarte": 0
+      },
+      "historique": {
+        "conforme": 137,
+        "corrige": 282,
+        "conserve_avertissement": 99,
+        "quarantaine": 10,
+        "doublon_exact_ecarte": 0
+      },
+      "notaires": {
+        "conforme": 244,
+        "corrige": 118,
+        "conserve_avertissement": 28,
+        "quarantaine": 20,
+        "doublon_exact_ecarte": 0
+      },
+      "particuliers": {
+        "conforme": 143,
+        "corrige": 225,
+        "conserve_avertissement": 231,
+        "quarantaine": 132,
+        "doublon_exact_ecarte": 0
+      },
+      "plateforme": {
+        "conforme": 621,
+        "corrige": 85,
+        "conserve_avertissement": 139,
+        "quarantaine": 15,
+        "doublon_exact_ecarte": 15
+      }
+    }
+  },
+  "enregistrements_avec_au_moins_une_correction": 1339,
+  "corrections_par_champ": {
+    "date": 959,
+    "transaction": 0,
+    "categorie": 157,
+    "region": 0,
+    "ville": 12,
+    "montant": 141,
+    "surface": 83,
+    "chambres": 0,
+    "sdb": 0,
+    "statut": 132
+  },
+  "champs_completes_par_deduction": {
+    "transaction_deduite_nature_source": 938,
+    "transaction_deduite_statut": 640,
+    "periodicite_lue_dans_devise": 173
+  },
+  "valeurs_manquantes": [
+    {
+      "source": "agence",
+      "colonne": "date_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "transaction_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "agence",
+      "colonne": "categorie_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "region_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "ville_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "quartier_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "agence",
+      "colonne": "montant_brut",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "devise_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "agence",
+      "colonne": "surface_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "chambres_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "sdb_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "statut_brut",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "agence",
+      "colonne": "description",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 640,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "historique",
+      "colonne": "date_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "historique",
+      "colonne": "transaction_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "historique",
+      "colonne": "categorie_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "historique",
+      "colonne": "region_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "historique",
+      "colonne": "ville_brute",
+      "colonne_absente": false,
+      "manquants": 8,
+      "evalues": 528,
+      "taux_manquant_pct": 1.5
+    },
+    {
+      "source": "historique",
+      "colonne": "quartier_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "historique",
+      "colonne": "montant_brut",
+      "colonne_absente": false,
+      "manquants": 10,
+      "evalues": 528,
+      "taux_manquant_pct": 1.9
+    },
+    {
+      "source": "historique",
+      "colonne": "devise_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "historique",
+      "colonne": "surface_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "historique",
+      "colonne": "chambres_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "historique",
+      "colonne": "sdb_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "historique",
+      "colonne": "statut_brut",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "historique",
+      "colonne": "description",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 528,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "notaires",
+      "colonne": "date_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "notaires",
+      "colonne": "transaction_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "notaires",
+      "colonne": "categorie_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "notaires",
+      "colonne": "region_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "notaires",
+      "colonne": "ville_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "notaires",
+      "colonne": "quartier_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "notaires",
+      "colonne": "montant_brut",
+      "colonne_absente": false,
+      "manquants": 14,
+      "evalues": 410,
+      "taux_manquant_pct": 3.4
+    },
+    {
+      "source": "notaires",
+      "colonne": "devise_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "notaires",
+      "colonne": "surface_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "notaires",
+      "colonne": "chambres_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "notaires",
+      "colonne": "sdb_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "notaires",
+      "colonne": "statut_brut",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "notaires",
+      "colonne": "description",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 410,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "particuliers",
+      "colonne": "date_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "transaction_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "categorie_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "region_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "ville_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "quartier_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "particuliers",
+      "colonne": "montant_brut",
+      "colonne_absente": false,
+      "manquants": 61,
+      "evalues": 731,
+      "taux_manquant_pct": 8.3
+    },
+    {
+      "source": "particuliers",
+      "colonne": "devise_brute",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "particuliers",
+      "colonne": "surface_brute",
+      "colonne_absente": false,
+      "manquants": 75,
+      "evalues": 731,
+      "taux_manquant_pct": 10.3
+    },
+    {
+      "source": "particuliers",
+      "colonne": "chambres_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "sdb_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "statut_brut",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "particuliers",
+      "colonne": "description",
+      "colonne_absente": true,
+      "manquants": 0,
+      "evalues": 731,
+      "taux_manquant_pct": NaN
+    },
+    {
+      "source": "plateforme",
+      "colonne": "date_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "transaction_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "categorie_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "region_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "ville_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "quartier_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "montant_brut",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "devise_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "surface_brute",
+      "colonne_absente": false,
+      "manquants": 5,
+      "evalues": 860,
+      "taux_manquant_pct": 0.6
+    },
+    {
+      "source": "plateforme",
+      "colonne": "chambres_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "sdb_brute",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "statut_brut",
+      "colonne_absente": false,
+      "manquants": 0,
+      "evalues": 860,
+      "taux_manquant_pct": 0.0
+    },
+    {
+      "source": "plateforme",
+      "colonne": "description",
+      "colonne_absente": false,
+      "manquants": 163,
+      "evalues": 860,
+      "taux_manquant_pct": 19.0
+    }
+  ],
+  "erreurs_de_conversion": [
+    {
+      "champ": "date",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "date",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "date",
+      "source": "notaires",
+      "erreurs": 6,
+      "evalues": 410
+    },
+    {
+      "champ": "date",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "date",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "transaction",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "transaction",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "transaction",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "transaction",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "transaction",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "categorie",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "categorie",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "categorie",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "categorie",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "categorie",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "region",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "region",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "region",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "region",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "region",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "ville",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "ville",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "ville",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "ville",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "ville",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "montant",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "montant",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "montant",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "montant",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "montant",
+      "source": "plateforme",
+      "erreurs": 5,
+      "evalues": 860
+    },
+    {
+      "champ": "surface",
+      "source": "agence",
+      "erreurs": 4,
+      "evalues": 640
+    },
+    {
+      "champ": "surface",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "surface",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "surface",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "surface",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "chambres",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "chambres",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "chambres",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "chambres",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "chambres",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "sdb",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "sdb",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "sdb",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "sdb",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "sdb",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    },
+    {
+      "champ": "statut",
+      "source": "agence",
+      "erreurs": 0,
+      "evalues": 640
+    },
+    {
+      "champ": "statut",
+      "source": "historique",
+      "erreurs": 0,
+      "evalues": 528
+    },
+    {
+      "champ": "statut",
+      "source": "notaires",
+      "erreurs": 0,
+      "evalues": 410
+    },
+    {
+      "champ": "statut",
+      "source": "particuliers",
+      "erreurs": 0,
+      "evalues": 731
+    },
+    {
+      "champ": "statut",
+      "source": "plateforme",
+      "erreurs": 0,
+      "evalues": 860
+    }
+  ],
+  "regles": [
+    {
+      "code": "B01",
+      "regle": "identifiant_present",
+      "gravite": "bloquante",
+      "description": "L'identifiant local est renseigné",
+      "conformes": 3169,
+      "non_conformes": 0,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "B02",
+      "regle": "transaction_valide",
+      "gravite": "bloquante",
+      "description": "Vente ou location après normalisation",
+      "conformes": 3169,
+      "non_conformes": 0,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "B03",
+      "regle": "prix_ou_loyer_positif",
+      "gravite": "bloquante",
+      "description": "Prix (vente) ou loyer (location) numérique strictement positif",
+      "conformes": 3072,
+      "non_conformes": 97,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 96.9,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "B04",
+      "regle": "surface_positive",
+      "gravite": "bloquante",
+      "description": "Surface numérique strictement positive",
+      "conformes": 3085,
+      "non_conformes": 84,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 97.3,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "B05",
+      "regle": "date_interpretable",
+      "gravite": "bloquante",
+      "description": "Date lisible et possible (pas 32/13/2024)",
+      "conformes": 3163,
+      "non_conformes": 6,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 99.8,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "B06",
+      "regle": "date_non_future",
+      "gravite": "bloquante",
+      "description": "Date non postérieure à la date d'exécution",
+      "conformes": 3158,
+      "non_conformes": 5,
+      "non_evaluables": 6,
+      "evaluables": 3163,
+      "taux_conformite_pct": 99.8,
+      "denominateur": "3163 enregistrements évaluables"
+    },
+    {
+      "code": "B07",
+      "regle": "type_bien_valide",
+      "gravite": "bloquante",
+      "description": "Type de bien parmi les 7 catégories du référentiel",
+      "conformes": 3169,
+      "non_conformes": 0,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "A01",
+      "regle": "periodicite_connue",
+      "gravite": "avertissement",
+      "description": "Un loyer a une périodicité reconnue (mensuel, trimestriel...)",
+      "conformes": 173,
+      "non_conformes": 327,
+      "non_evaluables": 2669,
+      "evaluables": 500,
+      "taux_conformite_pct": 34.6,
+      "denominateur": "500 enregistrements évaluables"
+    },
+    {
+      "code": "A02",
+      "regle": "prix_vente_plausible",
+      "gravite": "avertissement",
+      "description": "Prix de vente entre les seuils généraux",
+      "conformes": 2598,
+      "non_conformes": 0,
+      "non_evaluables": 571,
+      "evaluables": 2598,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "2598 enregistrements évaluables"
+    },
+    {
+      "code": "A03",
+      "regle": "loyer_mensuel_plausible",
+      "gravite": "avertissement",
+      "description": "Loyer mensuel entre 25 000 et 5 000 000 FCFA",
+      "conformes": 173,
+      "non_conformes": 0,
+      "non_evaluables": 2996,
+      "evaluables": 173,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "173 enregistrements évaluables"
+    },
+    {
+      "code": "A04",
+      "regle": "prix_dans_fourchette_categorie",
+      "gravite": "avertissement",
+      "description": "Prix de vente dans la fourchette de sa catégorie",
+      "conformes": 2518,
+      "non_conformes": 80,
+      "non_evaluables": 571,
+      "evaluables": 2598,
+      "taux_conformite_pct": 96.9,
+      "denominateur": "2598 enregistrements évaluables"
+    },
+    {
+      "code": "A05",
+      "regle": "surface_plausible",
+      "gravite": "avertissement",
+      "description": "Surface entre 5 et 2 000 m²",
+      "conformes": 3085,
+      "non_conformes": 0,
+      "non_evaluables": 84,
+      "evaluables": 3085,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3085 enregistrements évaluables"
+    },
+    {
+      "code": "A06",
+      "regle": "surface_dans_fourchette_categorie",
+      "gravite": "avertissement",
+      "description": "Surface dans la fourchette de sa catégorie",
+      "conformes": 3079,
+      "non_conformes": 6,
+      "non_evaluables": 84,
+      "evaluables": 3085,
+      "taux_conformite_pct": 99.8,
+      "denominateur": "3085 enregistrements évaluables"
+    },
+    {
+      "code": "A07",
+      "regle": "prix_m2_dans_plage_referentiel",
+      "gravite": "avertissement",
+      "description": "Prix au m² dans la plage déduite du référentiel",
+      "conformes": 2538,
+      "non_conformes": 4,
+      "non_evaluables": 627,
+      "evaluables": 2542,
+      "taux_conformite_pct": 99.8,
+      "denominateur": "2542 enregistrements évaluables"
+    },
+    {
+      "code": "A08",
+      "regle": "prix_m2_non_atypique",
+      "gravite": "avertissement",
+      "description": "Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR)",
+      "conformes": 2431,
+      "non_conformes": 111,
+      "non_evaluables": 627,
+      "evaluables": 2542,
+      "taux_conformite_pct": 95.6,
+      "denominateur": "2542 enregistrements évaluables"
+    },
+    {
+      "code": "A09",
+      "regle": "chambres_valides",
+      "gravite": "avertissement",
+      "description": "Nombre de chambres : entier >= 0",
+      "conformes": 3169,
+      "non_conformes": 0,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "A10",
+      "regle": "salles_bain_valides",
+      "gravite": "avertissement",
+      "description": "Nombre de salles de bain : entier >= 0",
+      "conformes": 2759,
+      "non_conformes": 0,
+      "non_evaluables": 410,
+      "evaluables": 2759,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "2759 enregistrements évaluables"
+    },
+    {
+      "code": "A11",
+      "regle": "chambres_non_atypiques",
+      "gravite": "avertissement",
+      "description": "Pas plus de 10 chambres pour un appartement ou un studio",
+      "conformes": 1126,
+      "non_conformes": 0,
+      "non_evaluables": 2043,
+      "evaluables": 1126,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "1126 enregistrements évaluables"
+    },
+    {
+      "code": "A12",
+      "regle": "salles_bain_coherentes",
+      "gravite": "avertissement",
+      "description": "Salles de bain <= chambres + 2",
+      "conformes": 2599,
+      "non_conformes": 160,
+      "non_evaluables": 410,
+      "evaluables": 2759,
+      "taux_conformite_pct": 94.2,
+      "denominateur": "2759 enregistrements évaluables"
+    },
+    {
+      "code": "A13",
+      "regle": "pieces_coherentes_type",
+      "gravite": "avertissement",
+      "description": "Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre",
+      "conformes": 2420,
+      "non_conformes": 14,
+      "non_evaluables": 735,
+      "evaluables": 2434,
+      "taux_conformite_pct": 99.4,
+      "denominateur": "2434 enregistrements évaluables"
+    },
+    {
+      "code": "A14",
+      "regle": "ville_reconnue",
+      "gravite": "avertissement",
+      "description": "Ville renseignée et présente dans le référentiel géographique",
+      "conformes": 3161,
+      "non_conformes": 8,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 99.7,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "A15",
+      "regle": "region_reconnue",
+      "gravite": "avertissement",
+      "description": "Région renseignée et présente dans le référentiel",
+      "conformes": 3169,
+      "non_conformes": 0,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "A16",
+      "regle": "region_ville_coherentes",
+      "gravite": "avertissement",
+      "description": "La ville appartient bien à la région indiquée",
+      "conformes": 3157,
+      "non_conformes": 4,
+      "non_evaluables": 8,
+      "evaluables": 3161,
+      "taux_conformite_pct": 99.9,
+      "denominateur": "3161 enregistrements évaluables"
+    },
+    {
+      "code": "A17",
+      "regle": "statut_coherent_transaction",
+      "gravite": "avertissement",
+      "description": "Le statut est compatible avec la transaction écrite dans la source",
+      "conformes": 1578,
+      "non_conformes": 13,
+      "non_evaluables": 1578,
+      "evaluables": 1591,
+      "taux_conformite_pct": 99.2,
+      "denominateur": "1591 enregistrements évaluables"
+    },
+    {
+      "code": "A18",
+      "regle": "dates_coherentes",
+      "gravite": "avertissement",
+      "description": "La date d'expiration n'est pas antérieure à la mise en ligne",
+      "conformes": 855,
+      "non_conformes": 5,
+      "non_evaluables": 2309,
+      "evaluables": 860,
+      "taux_conformite_pct": 99.4,
+      "denominateur": "860 enregistrements évaluables"
+    },
+    {
+      "code": "A19",
+      "regle": "date_non_concentree",
+      "gravite": "avertissement",
+      "description": "Pas 20 annonces ou plus de la même source le même jour",
+      "conformes": 3123,
+      "non_conformes": 40,
+      "non_evaluables": 6,
+      "evaluables": 3163,
+      "taux_conformite_pct": 98.7,
+      "denominateur": "3163 enregistrements évaluables"
+    },
+    {
+      "code": "A20",
+      "regle": "pas_de_doublon_probable",
+      "gravite": "avertissement",
+      "description": "Aucun doublon probable dans les autres enregistrements",
+      "conformes": 3169,
+      "non_conformes": 0,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "A21",
+      "regle": "pas_de_conflit_entre_enregistrements",
+      "gravite": "avertissement",
+      "description": "Aucun conflit (même bien, valeurs contradictoires)",
+      "conformes": 3163,
+      "non_conformes": 6,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 99.8,
+      "denominateur": "3169 enregistrements évaluables"
+    },
+    {
+      "code": "A22",
+      "regle": "identifiant_unique",
+      "gravite": "avertissement",
+      "description": "L'identifiant global n'apparaît qu'une fois",
+      "conformes": 3169,
+      "non_conformes": 0,
+      "non_evaluables": 0,
+      "evaluables": 3169,
+      "taux_conformite_pct": 100.0,
+      "denominateur": "3169 enregistrements évaluables"
+    }
+  ],
+  "quarantaine": {
+    "nombre": 186,
+    "motifs_par_regle": {
+      "prix_ou_loyer_positif": 97,
+      "surface_positive": 84,
+      "date_interpretable": 6,
+      "date_non_future": 5
+    },
+    "note": "Un enregistrement peut cumuler plusieurs motifs : la somme des motifs peut dépasser le nombre d'enregistrements."
+  },
+  "avertissements": {
+    "enregistrements_conserves_avec_avertissement": 658,
+    "occurrences_par_regle": {
+      "periodicite_connue": 327,
+      "salles_bain_coherentes": 160,
+      "prix_m2_non_atypique": 111,
+      "prix_dans_fourchette_categorie": 80,
+      "date_non_concentree": 40,
+      "pieces_coherentes_type": 14,
+      "statut_coherent_transaction": 13,
+      "ville_reconnue": 8,
+      "pas_de_conflit_entre_enregistrements": 6,
+      "surface_dans_fourchette_categorie": 6,
+      "dates_coherentes": 5,
+      "region_ville_coherentes": 4,
+      "prix_m2_dans_plage_referentiel": 4
+    }
+  },
+  "rapprochement": {
+    "paires_comparees": 12622,
+    "paires_retenues": 3,
+    "doublons_probables": 0,
+    "conflits": 3,
+    "faux_doublons_attendus_par_hasard": {
+      "moyenne": 4.9,
+      "min": 3,
+      "max": 8,
+      "tirages": 10
+    },
+    "paires": [
+      {
+        "id_a": "particuliers:PRT-01461",
+        "id_b": "particuliers:PRT-02191",
+        "ville": "Gossas",
+        "type_bien": "Studio",
+        "score": 0.767,
+        "type_lien": "conflit",
+        "champs_en_conflit": "prix"
+      },
+      {
+        "id_a": "plateforme:PLT-00314",
+        "id_b": "plateforme:PLT-00587",
+        "ville": "Podor",
+        "type_bien": "Appartement",
+        "score": 0.797,
+        "type_lien": "conflit",
+        "champs_en_conflit": "salles_bain"
+      },
+      {
+        "id_a": "agence:AGT-01179",
+        "id_b": "historique:HIS-0071",
+        "ville": "Vélingara",
+        "type_bien": "Appartement",
+        "score": 0.795,
+        "type_lien": "conflit",
+        "champs_en_conflit": "chambres,salles_bain"
+      }
+    ]
+  },
+  "integrite_sources": {
+    "fichiers_bruts_intacts": true,
+    "sha256_avant_apres": {
+      "plateforme": "f88d7bb53543b5c8a539d86932f4d96c60b08e52bb45dd5032dd35ad3caa5c24",
+      "agence": "02b2045874c79cd5a9850f51f4f9b96e5da76722a0dd9e0e5061b9aab7bacd12",
+      "particuliers": "1434af2b38159bc44a6bddd8e7fcabac1de21e5ce13aad60d9b95c94f142670e",
+      "notaires": "d3974a98d4448126a7f5f5dfebc0178f3cff6bc64255c41dd9c9f8763b4a7b78",
+      "historique": "b70aa7a31e545bc55d1320d4b5a5144fad1d3a677fb6c0bd1f413f8c2e80ab2e"
+    }
+  }
+}
