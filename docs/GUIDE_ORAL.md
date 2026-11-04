@@ -148,7 +148,7 @@ Un registre de sources YAML (ajouter une source sans toucher au code), le format
 2. **Lancer le pipeline** (1 min) : `python -m src.main --date-ref 2026-10-29` → montrer le résumé et les 9 contrôles `[OK]`.
 3. **Montrer les sorties** (2 min) : `data/processed/donnees_propres.csv` (valeur propre à côté de la valeur brute), `data/quarantine/quarantaine.csv` (ligne + motif), `reports/rapport_qualite.md`.
 4. **Un cas expliqué de bout en bout** (2 min) : `PLT-00002` : `57.62 millions` → 57 620 000, statut « corrigé » ; puis un rejet : `PLT-00062` : `à négocier` → quarantaine, règle `prix_ou_loyer_positif`.
-5. **Les tests** (1 min) : `pytest` → 104 tests ; montrer un cas limite (`1,250` ambigu).
+5. **Les tests** (1 min) : `pytest` → 109 tests ; montrer un cas limite (`1,250` ambigu).
 6. **Le notebook** (1 min) : `01_exploration.ipynb`, graphique de conformité par règle et séparation ventes / locations.
 
 **Vérifie avant la démo** : `Restart` + `Run All` du notebook, `pytest` vert, `git status` propre, README à jour.

@@ -18,7 +18,7 @@ from datetime import date
 
 import pandas as pd
 
-from src.config import SOURCES, SOURCES_CONFIG
+from src.config import PROFIL_MODULE1, SOURCES, SOURCES_CONFIG
 from src.loaders.sources import charger_toutes_les_sources, empreintes_sources
 from src.processing.rapprochement import detecter_rapprochements, estimer_coincidences
 from src.processing.referentiels import Referentiels
@@ -44,6 +44,7 @@ class Resultats:
     volumes_attendus: dict
     empreintes_avant: dict
     empreintes_apres: dict
+    profil: dict = field(default_factory=lambda: dict(PROFIL_MODULE1))
     notes: list[str] = field(default_factory=list)
 
     @property
@@ -51,10 +52,13 @@ class Resultats:
         return self.empreintes_avant == self.empreintes_apres
 
 
-def executer_pipeline(date_ref: date | None = None, simuler_hasard: bool = True) -> Resultats:
-    """Exécute le pipeline complet. `date_ref` fixe la « date d'exécution » (reproductibilité)."""
+def executer_pipeline(date_ref: date | None = None, simuler_hasard: bool = True, profil: dict = PROFIL_MODULE1) -> Resultats:
+    """Exécute le pipeline complet. `date_ref` fixe la « date d'exécution » (reproductibilité).
+
+    `profil` : jeu de règles appliqué (PROFIL_MODULE1 par défaut, PROFIL_MODULE2 pour la préparation ML).
+    """
     date_ref = date_ref or date.today()
-    journal.info("Date de référence : %s", date_ref)
+    journal.info("Date de référence : %s | profil de règles : %s", date_ref, profil["nom"])
 
     empreintes_avant = empreintes_sources()
     ref = Referentiels.charger()
@@ -66,9 +70,13 @@ def executer_pipeline(date_ref: date | None = None, simuler_hasard: bool = True)
         niveau = logging.INFO if recu == attendu else logging.WARNING
         journal.log(niveau, "Source %-12s : %4d lignes reçues, %4d annoncées", nom, recu, attendu)
 
-    brut = combiner_sources(sources)
-    brut = marquer_doublons_exacts(brut)
-    donnees = normaliser_donnees(brut, ref, date_ref)
+    # On NETTOIE CHAQUE SOURCE AVANT de les concaténer (consigne du Module 2) : conventions de date,
+    # doublons exacts et normalisation sont calculés source par source, puis les résultats sont empilés.
+    morceaux = []
+    for nom, brute in sources.items():
+        propre = marquer_doublons_exacts(combiner_sources({nom: brute}))
+        morceaux.append(normaliser_donnees(propre, ref, date_ref, profil))
+    donnees = pd.concat(morceaux, ignore_index=True)
     journal.info("Normalisation faite : %d lignes, dont %d copies exactes", len(donnees), donnees["est_copie_exacte"].sum())
 
     # Les copies exactes sont écartées AVANT le rapprochement et la validation :
@@ -82,7 +90,7 @@ def executer_pipeline(date_ref: date | None = None, simuler_hasard: bool = True)
     coincidences = estimer_coincidences(actifs) if simuler_hasard else {"moyenne": None, "min": None, "max": None, "tirages": 0}
     journal.info("Rapprochement : %d paires retenues (hasard estimé : %s)", len(retenues), coincidences["moyenne"])
 
-    regles = construire_regles(ref, date_ref)
+    regles = construire_regles(ref, date_ref, profil=profil)
     matrice = appliquer_regles_sur_actifs(donnees, regles)                  # copies : lignes <NA>
     actifs = donnees[~donnees["est_copie_exacte"]]
     anomalies = journal_anomalies(actifs, matrice.loc[actifs.index], regles)
@@ -102,5 +110,5 @@ def executer_pipeline(date_ref: date | None = None, simuler_hasard: bool = True)
         date_reference=date_ref, ref=ref, regles=regles, donnees=donnees, matrice=matrice, anomalies=anomalies,
         paires=paires, rapprochements=retenues, coincidences=coincidences, volumes_recus=volumes_recus,
         volumes_attendus={n: c["volume_attendu"] for n, c in SOURCES_CONFIG.items()},
-        empreintes_avant=empreintes_avant, empreintes_apres=empreintes_apres,
+        empreintes_avant=empreintes_avant, empreintes_apres=empreintes_apres, profil=dict(profil),
     )

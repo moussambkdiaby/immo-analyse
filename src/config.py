@@ -17,6 +17,9 @@ REFERENTIELS = RAW / "referentiels"
 PROCESSED = RACINE / "data" / "processed"                # données propres
 QUARANTINE = RACINE / "data" / "quarantine"              # lignes rejetées + motifs
 REPORTS = RACINE / "reports"                             # rapports de qualité et analyses
+SORTIE = RACINE / "sortie"                               # livrables du Module 2 (propres, quarantaine, avertissements)
+MODELS = RACINE / "models"                               # pipeline sérialisé (Module 2)
+DOCS = RACINE / "docs"
 
 # --------------------------------------------------------------------------- sources
 # Format de chaque flux (cahier § 5.2). Le « volume attendu » vient de fiche_conception_dataset.md
@@ -41,7 +44,7 @@ PERIODICITES = ("mensuel", "trimestriel", "semestriel", "annuel")
 TRANSACTION_PAR_NATURE = {"notaires": "vente", "historique": "vente"}
 
 # Preuve de cette table : dans la plateforme et chez les particuliers (où la transaction est écrite),
-# « Disponible » et « Loué » correspondent à 100 % à des locations (214 + 168 cas, 0 contre-exemple).
+# « Disponible » et « Loué » correspondent à 100 % à des locations (379 cas : 160 plateforme + 219 particuliers, 0 contre-exemple).
 # Les statuts de vente (Vendu, En vente, Sous offre, Retiré, À confirmer) correspondent à des ventes.
 STATUT_VERS_TRANSACTION = {
     "Disponible": "location", "Loué": "location",
@@ -85,3 +88,21 @@ SEUIL_LOT_MEME_DATE = 20
 
 # --------------------------------------------------------------------------- statuts
 STATUTS_FINAUX = ("conforme", "corrige", "conserve_avertissement", "quarantaine", "doublon_exact_ecarte")
+
+
+# --------------------------------------------------------------------------- profils de règles
+# Un « profil » regroupe les choix qui DIFFÈRENT entre deux référentiels de règles.
+#  - Module 1 : cahier des charges ImmoAnalyse (§ 6.1)
+#  - Module 2 : regles_metier.md, qui fait foi pour la préparation ML (guide de l'apprenant)
+PROFIL_MODULE1 = {
+    "nom": "module1",
+    "convertir_lettres": True,               # « quatre-vingt » -> 80 (cas sans ambiguïté)
+    "type_bien_hors_ref_bloquant": True,     # cahier § 6.1 : quarantaine
+    "date_future_vendu_seulement": False,    # cahier § 6.1 : toute date future va en quarantaine
+}
+PROFIL_MODULE2 = {
+    "nom": "module2",
+    "convertir_lettres": False,              # « quatre-vingt » = surface non numérique -> quarantaine
+    "type_bien_hors_ref_bloquant": False,    # regles_metier.md : avertissement (conserver, signaler)
+    "date_future_vendu_seulement": True,     # regles_metier.md : bloquante seulement si « déclarée vendue »
+}

@@ -224,6 +224,13 @@ def rapport_markdown(rapport: dict, R: Resultats) -> str:
     paires = pd.DataFrame(rap["paires"])
     hasard = rap["faux_doublons_attendus_par_hasard"]
     intact = "OUI" if rapport["integrite_sources"]["fichiers_bruts_intacts"] else "NON — à investiguer"
+    m2 = R.profil["nom"] == "module2"
+    texte_type_bien = ("- **Type de bien hors référentiel** : avertissement (`regles_metier.md` : conserver, signaler). Aucun cas dans ces données."
+                       if m2 else "- **Type de bien hors référentiel** : le cahier dit quarantaine, `regles_metier.md` dit avertissement. On applique le cahier. Aucun cas dans ces données.")
+    futures = R.donnees[(R.donnees["date_collecte"] > R.date_reference.isoformat()) & ~R.donnees["est_copie_exacte"]]
+    texte_date_future = (f"- **Date future** : bloquante seulement pour une transaction déclarée vendue (`regles_metier.md`). {len(futures)} annonces de la plateforme sont datées après la date d'exécution ; "
+                         f"{int((futures['statut_source'] == 'Vendu').sum())} sont « Vendu » (quarantaine), les {int((futures['statut_source'] != 'Vendu').sum())} autres sont signalées (A23)."
+                         if m2 else f"- **Date future** : quarantaine (cahier § 6.1). {len(futures)} annonces de la plateforme (2028-12-01).")
 
     return f"""# Rapport de qualité des données — ImmoAnalyse
 
@@ -316,8 +323,8 @@ Le fichier `data/quarantine/quarantaine.csv` donne, pour chaque ligne, sa source
 - **Dates `JJ/MM/AAAA`** : la convention est déduite *par source* à partir de preuves (un premier nombre > 12 prouve un jour, un deuxième nombre > 12 prouverait un mois). Agence, particuliers et historique : JJ/MM. Notaires : les seules dates à barres sont impossibles (32/13/2024) → quarantaine.
 - **Ventes et locations** sont séparées dans tout le pipeline. Les prix de vente sont des prix *demandés* (annonces), pas des prix de transaction conclue ; les actes notariés et l'historique sont des ventes.
 - **Agence** : pas de colonne vente/location ; la transaction est déduite du statut (Disponible, Loué → location ; En vente, Vendu → vente), règle prouvée sur les sources où la transaction est écrite (0 contre-exemple).
-- **Type de bien hors référentiel** : le cahier dit quarantaine, `regles_metier.md` dit avertissement. On applique le cahier. Aucun cas dans ces données.
-- **Date future** : quarantaine (cahier § 6.1). 5 annonces de la plateforme (2028-12-01).
+{texte_type_bien}
+{texte_date_future}
 - **Lot suspect** : 40 annonces de la plateforme (PLT-02602 à PLT-02680, toutes du 2024-03-01, toutes « En vente », 0 chambre et 0 salle de bain) ressemblent à un import en masse avec valeurs par défaut. Conservées avec avertissement, à vérifier à la source.
 - **Données synthétiques** : elles ne permettent pas d'estimer le marché réel (cahier § 5.7).
 """

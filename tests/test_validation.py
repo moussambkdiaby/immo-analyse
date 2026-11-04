@@ -139,3 +139,49 @@ def test_les_statuts_sont_mutuellement_exclusifs_et_exhaustifs(ref):
 def test_la_valeur_brute_est_conservee_a_cote_de_la_valeur_propre(ref):
     df, _, _ = valider([ligne(montant_brut="438 746 000")], ref)
     assert df["montant_brut"].iloc[0] == "438 746 000" and df["montant"].iloc[0] == 438746000.0
+
+
+# ------------------------------------------------------------------ profil de règles du Module 2 (regles_metier.md)
+import pytest as _pytest  # noqa: E402
+
+from src.config import PROFIL_MODULE1, PROFIL_MODULE2  # noqa: E402
+from src.processing.traitement import normaliser_donnees  # noqa: E402
+from src.validation.controle import appliquer_regles_sur_actifs, statut_final  # noqa: E402
+from src.validation.regles import construire_regles  # noqa: E402
+from tests.conftest import DATE_REF  # noqa: E402
+
+
+def valider_profil(lignes, ref, profil):
+    from src.loaders.sources import COLONNES_COMMUNES
+    from src.processing.traitement import combiner_sources, marquer_doublons_exacts
+    brut = pd.DataFrame(lignes, columns=COLONNES_COMMUNES)
+    brut["ligne_source"] = range(1, len(brut) + 1)
+    df = normaliser_donnees(marquer_doublons_exacts(combiner_sources({"t": brut})), ref, DATE_REF, profil)
+    df["lien_rapprochement"] = None
+    regles = construire_regles(ref, DATE_REF, profil=profil)
+    matrice = appliquer_regles_sur_actifs(df, regles)
+    return df, matrice, statut_final(df, matrice, regles)
+
+
+def test_module2_quatre_vingt_est_refuse_alors_que_module1_le_convertit(ref):
+    _, _, s1 = valider_profil([ligne(surface_brute="quatre-vingt")], ref, PROFIL_MODULE1)
+    _, _, s2 = valider_profil([ligne(surface_brute="quatre-vingt")], ref, PROFIL_MODULE2)
+    assert s1.iloc[0] == "corrige" and s2.iloc[0] == "quarantaine"
+
+
+def test_module2_date_future_bloquante_seulement_si_vendu(ref):
+    _, _, vendu = valider_profil([ligne(date_brute="2028-12-01", statut_brut="Vendu")], ref, PROFIL_MODULE2)
+    _, m, en_vente = valider_profil([ligne(date_brute="2028-12-01", statut_brut="En vente")], ref, PROFIL_MODULE2)
+    assert vendu.iloc[0] == "quarantaine"
+    assert en_vente.iloc[0] == "conserve_avertissement" and m["A23"].iloc[0] == False  # noqa: E712
+
+
+def test_module1_date_future_toujours_bloquante(ref):
+    _, _, s = valider_profil([ligne(date_brute="2028-12-01", statut_brut="En vente")], ref, PROFIL_MODULE1)
+    assert s.iloc[0] == "quarantaine"
+
+
+def test_module2_type_de_bien_hors_referentiel_est_un_avertissement(ref):
+    _, _, s2 = valider_profil([ligne(categorie_brute="Château")], ref, PROFIL_MODULE2)
+    _, _, s1 = valider_profil([ligne(categorie_brute="Château")], ref, PROFIL_MODULE1)
+    assert s2.iloc[0] == "conserve_avertissement" and s1.iloc[0] == "quarantaine"

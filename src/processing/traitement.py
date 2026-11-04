@@ -15,7 +15,7 @@ from datetime import date
 import numpy as np
 import pandas as pd
 
-from src.config import PERIODICITES, STATUT_VERS_TRANSACTION, TRANSACTION_PAR_NATURE
+from src.config import PROFIL_MODULE1, STATUT_VERS_TRANSACTION, TRANSACTION_PAR_NATURE
 from src.loaders.sources import COLONNES_COMMUNES
 from src.processing import normalisation as nz
 from src.processing.referentiels import Referentiels
@@ -88,7 +88,8 @@ def _normaliser_periodicite(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def normaliser_donnees(brut: pd.DataFrame, ref: Referentiels, date_ref: date | None = None) -> pd.DataFrame:
+def normaliser_donnees(brut: pd.DataFrame, ref: Referentiels, date_ref: date | None = None,
+                       profil: dict = PROFIL_MODULE1) -> pd.DataFrame:
     """Ajoute à chaque ligne les colonnes normalisées et leurs statuts. Ne modifie pas `brut`."""
     df = brut.copy()                                 # .copy() : on ne touche jamais au tableau d'entrée
 
@@ -119,9 +120,10 @@ def normaliser_donnees(brut: pd.DataFrame, ref: Referentiels, date_ref: date | N
 
     # --- nombres
     df["montant"], df["montant_statut"] = _appliquer(df["montant_brut"], nz.normaliser_prix)
-    df["surface_m2"], df["surface_statut"] = _appliquer(df["surface_brute"], nz.normaliser_surface)
-    df["chambres"], df["chambres_statut"] = _appliquer(df["chambres_brute"], nz.normaliser_entier)
-    df["salles_bain"], df["sdb_statut"] = _appliquer(df["sdb_brute"], nz.normaliser_entier)
+    lettres = profil["convertir_lettres"]
+    df["surface_m2"], df["surface_statut"] = _appliquer(df["surface_brute"], nz.normaliser_surface, convertir_lettres=lettres)
+    df["chambres"], df["chambres_statut"] = _appliquer(df["chambres_brute"], nz.normaliser_entier, convertir_lettres=lettres)
+    df["salles_bain"], df["sdb_statut"] = _appliquer(df["sdb_brute"], nz.normaliser_entier, convertir_lettres=lettres)
 
     for colonne in ("montant", "surface_m2"):
         df[colonne] = pd.to_numeric(df[colonne], errors="coerce")

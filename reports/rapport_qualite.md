@@ -1,6 +1,6 @@
 # Rapport de qualité des données — ImmoAnalyse
 
-Généré le 2026-11-01T22:24:57 · date d'exécution de référence : **2026-10-29**
+Généré le 2026-11-04T02:52:29 · date d'exécution de référence : **2026-10-29**
 
 ## 1. Résumé
 

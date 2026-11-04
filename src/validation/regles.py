@@ -22,7 +22,7 @@ from typing import Callable
 
 import pandas as pd
 
-from src.config import PERIODICITES, SEUIL_LOT_MEME_DATE, SEUILS, STATUT_VERS_TRANSACTION, TRANSACTIONS
+from src.config import PERIODICITES, PROFIL_MODULE1, SEUIL_LOT_MEME_DATE, SEUILS, STATUT_VERS_TRANSACTION, TRANSACTIONS
 from src.processing.normalisation import est_vide
 from src.processing.referentiels import Referentiels
 
@@ -57,8 +57,12 @@ def _toujours(df: pd.DataFrame) -> pd.Series:
     return pd.Series(True, index=df.index)
 
 
-def construire_regles(ref: Referentiels, date_ref: date, seuils: dict = SEUILS) -> list[Regle]:
-    """Construit le catalogue de règles. Les seuils viennent de config.py (jamais codés ici)."""
+def construire_regles(ref: Referentiels, date_ref: date, seuils: dict = SEUILS, profil: dict = PROFIL_MODULE1) -> list[Regle]:
+    """Construit le catalogue de règles. Les seuils viennent de config.py (jamais codés ici).
+
+    `profil` choisit entre deux référentiels de règles qui divergent (voir config.py) :
+    gravité du « type de bien hors référentiel » et périmètre de la règle « date future ».
+    """
     fourchettes = ref.fourchettes()
     types_connus = set(fourchettes.index)
     aujourdhui = pd.Timestamp(date_ref)
@@ -81,7 +85,15 @@ def construire_regles(ref: Referentiels, date_ref: date, seuils: dict = SEUILS) 
 
     def t_date_non_future(df):
         d = pd.to_datetime(df["date_collecte"], errors="coerce")
-        return _resultat(df, d.notna(), d <= aujourdhui)
+        evaluable = d.notna()
+        if profil["date_future_vendu_seulement"]:            # regles_metier.md : bloquante si « déclarée vendue »
+            evaluable = evaluable & (df["statut_source"] == "Vendu")
+        return _resultat(df, evaluable, d <= aujourdhui)
+
+    def t_date_future_annonce(df):
+        # Profil Module 2 : une date future sur une annonce NON vendue est signalée, pas rejetée.
+        d = pd.to_datetime(df["date_collecte"], errors="coerce")
+        return _resultat(df, d.notna() & (df["statut_source"] != "Vendu"), d <= aujourdhui)
 
     def t_type_bien(df):
         return _resultat(df, _toujours(df), df["type_bien"].isin(types_connus))
@@ -190,6 +202,12 @@ def construire_regles(ref: Referentiels, date_ref: date, seuils: dict = SEUILS) 
         return _resultat(df, df["id_bien"].notna(), ~df["id_bien"].duplicated(keep=False))
 
     B, A = BLOQUANTE, AVERTISSEMENT
+    supplementaires = []
+    if profil["date_future_vendu_seulement"]:
+        supplementaires.append(
+            Regle("A23", "date_non_future_annonce", "date_collecte", A, "Date non postérieure à la date d'exécution (annonce non vendue)",
+                  "regles_metier.md : seule une vente déclarée vendue à date future est bloquante ; les autres sont signalées",
+                  t_date_future_annonce, "date_brute"))
     return [
         # ------------------------------------------------------------- bloquantes -> quarantaine
         Regle("B01", "identifiant_present", "id_local", B, "L'identifiant local est renseigné",
@@ -202,10 +220,14 @@ def construire_regles(ref: Referentiels, date_ref: date, seuils: dict = SEUILS) 
               "regles_metier.md : surface absente, non numérique ou <= 0 -> quarantaine", t_surface, "surface_brute", "surface_statut"),
         Regle("B05", "date_interpretable", "date_collecte", B, "Date lisible et possible (pas 32/13/2024)",
               "regles_metier.md : date non interprétable ou impossible -> quarantaine", t_date_interpretable, "date_brute", "date_statut"),
-        Regle("B06", "date_non_future", "date_collecte", B, "Date non postérieure à la date d'exécution",
-              "Cahier § 6.1 : non future par rapport à la date d'exécution", t_date_non_future, "date_brute"),
-        Regle("B07", "type_bien_valide", "type_bien", B, "Type de bien parmi les 7 catégories du référentiel",
-              "Cahier § 6.1 : quarantaine si hors référentiel (regles_metier.md dit « avertissement » : on suit le cahier)",
+        Regle("B06", "date_non_future", "date_collecte", B,
+              "Date non postérieure à la date d'exécution" + (" (transaction déclarée vendue)" if profil["date_future_vendu_seulement"] else ""),
+              "regles_metier.md : date future pour une transaction déclarée vendue" if profil["date_future_vendu_seulement"]
+              else "Cahier § 6.1 : non future par rapport à la date d'exécution", t_date_non_future, "date_brute"),
+        Regle("B07" if profil["type_bien_hors_ref_bloquant"] else "A24", "type_bien_valide", "type_bien",
+              B if profil["type_bien_hors_ref_bloquant"] else A, "Type de bien parmi les 7 catégories du référentiel",
+              "Cahier § 6.1 : quarantaine si hors référentiel" if profil["type_bien_hors_ref_bloquant"]
+              else "regles_metier.md : avertissement si absent du référentiel (conserver, signaler)",
               t_type_bien, "categorie_brute", "categorie_statut"),
         # ------------------------------------------------------------- avertissements -> conservé et signalé
         Regle("A01", "periodicite_connue", "periodicite", A, "Un loyer a une périodicité reconnue (mensuel, trimestriel...)",
@@ -253,4 +275,4 @@ def construire_regles(ref: Referentiels, date_ref: date, seuils: dict = SEUILS) 
               "Cahier § 6.1 / Axe 1 : les conflits sont signalés, pas résolus arbitrairement", t_conflit, "id_bien"),
         Regle("A22", "identifiant_unique", "id_bien", A, "L'identifiant global n'apparaît qu'une fois",
               "Cahier § 5.3 : un identifiant local n'est pas une clé fiable", t_id_unique, "id_bien"),
-    ]
+    ] + supplementaires

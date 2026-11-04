@@ -42,7 +42,7 @@ Les données brutes (`data/raw/sources/` et `data/raw/referentiels/`) sont **fou
 python -m src.main                         # pipeline complet (≈ 15 secondes)
 python -m src.main --date-ref 2026-10-29   # fixe la « date d'exécution » : résultats reproductibles
 python -m src.main --sans-simulation       # saute l'estimation des faux doublons (plus rapide)
-pytest                                     # 104 tests automatisés
+pytest                                     # 109 tests automatisés
 ```
 
 Le notebook d'analyse (`notebooks/01_exploration.ipynb`) s'ouvre dans VS Code (noyau : `.venv`) ; il s'exécute de haut en bas avec `Restart` puis `Run All`.
@@ -91,7 +91,7 @@ immo-analyse/
 │   │   ├── stats.py          # statistiques descriptives (NumPy, Pandas)
 │   │   └── export.py         # exports + vérification des fichiers produits
 │   └── main.py               # point d'entrée
-├── tests/                    # 104 tests : conformes, invalides, cas limites, intégration
+├── tests/                    # 109 tests : conformes, invalides, cas limites, intégration
 ├── requirements.txt
 └── README.md
 ```
@@ -201,7 +201,7 @@ Les seuils sont des **hypothèses pédagogiques** (cahier § 6), pas des normes 
 
 ## 9. Tests
 
-`pytest` lance **104 tests** : normalisation (cas conformes, invalides, **cas limites** comme `1,250` ou `03/04/2024`), règles de validation et décision finale, rapprochement (doublon, conflit, seuil modifiable), et un **test d'intégration** sur les vraies données (les statuts s'additionnent à 3 184, les 6 dates impossibles et les 5 dates futures sont en quarantaine, les fichiers bruts restent intacts, deux exécutions donnent les mêmes résultats, les exports sont cohérents et idempotents).
+`pytest` lance **109 tests** : normalisation (cas conformes, invalides, **cas limites** comme `1,250` ou `03/04/2024`), règles de validation et décision finale, rapprochement (doublon, conflit, seuil modifiable), et un **test d'intégration** sur les vraies données (les statuts s'additionnent à 3 184, les 6 dates impossibles et les 5 dates futures sont en quarantaine, les fichiers bruts restent intacts, deux exécutions donnent les mêmes résultats, les exports sont cohérents et idempotents).
 
 ## 10. Reproductibilité et intégrité
 
@@ -209,7 +209,17 @@ Les seuils sont des **hypothèses pédagogiques** (cahier § 6), pas des normes 
 - Les empreintes SHA-256 des 5 fichiers bruts sont calculées avant et après l'exécution et comparées (résultat dans le rapport).
 - Les exports vérifient leur propre cohérence (somme des fichiers = lignes reçues, identifiants uniques, motif présent sur chaque ligne en quarantaine, aucun prix ou surface ≤ 0 dans les données propres).
 
-## 11. Limites
+## 11. Module 2 : préparation pour le Machine Learning
+
+Le Module 2 réutilise ce pipeline pour la compétence 3 (nettoyage) avec un **profil de règles** aligné sur `regles_metier.md` (`PROFIL_MODULE2` dans `src/config.py`) : un nombre en lettres (`quatre-vingt`) est refusé, une date future n'est bloquante que pour une vente déclarée vendue, un type de bien hors référentiel est un avertissement. Le profil du Module 1 reste le défaut.
+
+```bash
+python -m src.preparation.nettoyage --date-ref 2026-11-03   # écrit sortie/ : propres, quarantine, avertissements, rapport (6 mesures)
+```
+
+Le plan, l'avancement et le registre des décisions sont dans `docs/PLAN_MODULE2.md` et `docs/justifications.md`.
+
+## 12. Limites
 
 - Données synthétiques ; seuils et fourchettes = hypothèses pédagogiques.
 - Prix de vente = prix **demandés**.

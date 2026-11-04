@@ -5,7 +5,7 @@ B03,prix_ou_loyer_positif,bloquante,montant,Prix (vente) ou loyer (location) num
 B04,surface_positive,bloquante,surface_m2,Surface numérique strictement positive,"regles_metier.md : surface absente, non numérique ou <= 0 -> quarantaine"
 B05,date_interpretable,bloquante,date_collecte,Date lisible et possible (pas 32/13/2024),regles_metier.md : date non interprétable ou impossible -> quarantaine
 B06,date_non_future,bloquante,date_collecte,Date non postérieure à la date d'exécution,Cahier § 6.1 : non future par rapport à la date d'exécution
-B07,type_bien_valide,bloquante,type_bien,Type de bien parmi les 7 catégories du référentiel,Cahier § 6.1 : quarantaine si hors référentiel (regles_metier.md dit « avertissement » : on suit le cahier)
+B07,type_bien_valide,bloquante,type_bien,Type de bien parmi les 7 catégories du référentiel,Cahier § 6.1 : quarantaine si hors référentiel
 A01,periodicite_connue,avertissement,periodicite,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)","Cahier § 6.1 : signaler, ne pas deviner"
 A02,prix_vente_plausible,avertissement,montant,Prix de vente entre les seuils généraux,regles_metier.md : prix < 100 000 ou > 2 milliards FCFA = atypique
 A03,loyer_mensuel_plausible,avertissement,montant,Loyer mensuel entre 25 000 et 5 000 000 FCFA,Cahier § 6.2 (évalué seulement si la périodicité est mensuelle)

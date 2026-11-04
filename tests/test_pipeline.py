@@ -91,3 +91,23 @@ def test_exports_coherents_et_idempotents(resultats, tmp_path, monkeypatch):
     rapport = json.loads((tmp_path / "reports" / "quality_report.json").read_text(encoding="utf-8"))
     assert rapport["volumes"]["total_recus"] == 3184
     assert sum(rapport["statuts_finaux"]["nombres"].values()) == 3184
+
+
+def test_module2_profil_et_livrables_de_sortie(tmp_path):
+    """Le nettoyage du Module 2 écrit les 4 livrables de sortie/ et reste cohérent avec le profil regles_metier.md."""
+    from src.config import PROFIL_MODULE2
+    from src.preparation.nettoyage import produire_sortie
+    R = executer_pipeline(DATE_REF, simuler_hasard=False, profil=PROFIL_MODULE2)
+    d = R.donnees
+    assert d["statut_final"].value_counts().sum() == 3184
+    assert (d.loc[d["surface_brute"] == "quatre-vingt", "statut_final"] == "quarantaine").all()
+    futures = d[(d["date_collecte"] > DATE_REF.isoformat()) & ~d["est_copie_exacte"]]
+    assert len(futures) == 5 and (futures.loc[futures["statut_source"] == "Vendu", "statut_final"] == "quarantaine").all()
+    assert (futures.loc[futures["statut_source"] != "Vendu", "statut_final"] == "conserve_avertissement").all()
+    produire_sortie(R, tmp_path)
+    for nom in ("donnees_propres.csv", "quarantine.csv", "avertissements.csv", "rapport_qualite.md"):
+        assert (tmp_path / nom).exists()
+    q = pd.read_csv(tmp_path / "quarantine.csv", encoding="utf-8-sig")
+    assert q["raison"].notna().all()
+    rapport = (tmp_path / "rapport_qualite.md").read_text(encoding="utf-8")
+    assert all(f"## Mesure {i}" in rapport for i in range(1, 7))

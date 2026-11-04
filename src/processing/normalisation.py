@@ -164,7 +164,7 @@ def normaliser_prix(texte):
     return None, "non_numerique"
 
 
-def normaliser_surface(texte):
+def normaliser_surface(texte, convertir_lettres: bool = True):
     """Convertit une surface en m². Renvoie (nombre, statut).
 
     Règles :
@@ -198,13 +198,14 @@ def normaliser_surface(texte):
     if re.fullmatch(r"\d+,\d{1,2}", sans_unite):
         return float(sans_unite.replace(",", ".")), "corrige"
 
-    en_chiffres = mots_vers_nombre(sans_unite)
-    if en_chiffres is not None:
-        return float(en_chiffres), "corrige"
+    if convertir_lettres:                       # profil Module 1 : « quatre-vingt » -> 80 ; profil Module 2 : refusé
+        en_chiffres = mots_vers_nombre(sans_unite)
+        if en_chiffres is not None:
+            return float(en_chiffres), "corrige"
     return None, "non_numerique"
 
 
-def normaliser_entier(valeur):
+def normaliser_entier(valeur, convertir_lettres: bool = True):
     """Convertit un compte (chambres, salles de bain) en entier. Renvoie (entier, statut).
 
     Les négatifs sont conservés tels quels : c'est la RÈGLE de validation qui les signale
@@ -224,9 +225,10 @@ def normaliser_entier(valeur):
         return int(brut), "conforme"
     if re.fullmatch(r"-?\d+\.0+", brut):
         return int(float(brut)), "corrige"
-    en_chiffres = mots_vers_nombre(brut)
-    if en_chiffres is not None:
-        return en_chiffres, "corrige"
+    if convertir_lettres:
+        en_chiffres = mots_vers_nombre(brut)
+        if en_chiffres is not None:
+            return en_chiffres, "corrige"
     return None, "non_numerique"
 
 
