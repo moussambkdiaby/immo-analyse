@@ -1,0 +1,4 @@
+﻿id_a,id_b,source_a,source_b,ville,type_bien,type_transaction,surface_a,surface_b,montant_a,montant_b,chambres_a,chambres_b,sdb_a,sdb_b,sim_surface,sim_prix,sim_pieces,sim_date,score,ecart_prix_rel,champs_en_conflit,type_lien
+particuliers:PRT-01461,particuliers:PRT-02191,particuliers,particuliers,Gossas,Studio,vente,50.0,50.0,18152000.0,17244400.0,4,4,4,4,1.0,0.667,1.0,0.0,0.767,0.05,prix,conflit
+plateforme:PLT-00314,plateforme:PLT-00587,plateforme,plateforme,Podor,Appartement,location,140.4,140.0,430000.0,435000.0,6,6,2,4,0.943,0.923,0.5,0.0,0.797,0.011494252873563218,salles_bain,conflit
+agence:AGT-01179,historique:HIS-0071,agence,historique,Vélingara,Appartement,vente,158.7,158.7,114867000.0,115100000.0,6,2,2,3,1.0,0.987,0.0,0.0,0.795,0.0020243266724587314,"chambres,salles_bain",conflit

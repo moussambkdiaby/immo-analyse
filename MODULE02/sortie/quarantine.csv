@@ -1,0 +1,187 @@
+﻿raison,id_bien,source,id_local,ligne_source,motifs_bloquants,avertissements,date_brute,transaction_brute,categorie_brute,region_brute,ville_brute,montant_brut,devise_brute,surface_brute,chambres_brute,sdb_brute,statut_brut
+prix_ou_loyer_positif,plateforme:PLT-00062,plateforme,PLT-00062,62,prix_ou_loyer_positif,,2023-04-04,vente,Terrain,Kédougou,Salémata,à négocier,FCFA,1131.9,0,0,En vente
+date_non_future,plateforme:PLT-00077,plateforme,PLT-00077,77,date_non_future,salles_bain_coherentes ; dates_coherentes,2028-12-01,vente,Appartement,Matam,Matam,64862000,FCFA,78.4,1,4,Vendu
+prix_ou_loyer_positif,plateforme:PLT-00085,plateforme,PLT-00085,85,prix_ou_loyer_positif,,2025-11-11,vente,Maison,Tambacounda,Tambacounda,à négocier,FCFA,163.7,4,1,Vendu
+surface_positive,plateforme:PLT-00211,plateforme,PLT-00211,211,surface_positive,salles_bain_coherentes,2020-08-07,location,Appartement,Ziguinchor,Ziguinchor,595000,FCFA/mois,,1,4,Loué
+prix_ou_loyer_positif,plateforme:PLT-00222,plateforme,PLT-00222,222,prix_ou_loyer_positif,,2019-06-25,vente,Appartement,Dakar,Rufisque,à négocier,FCFA,55.1,3,2,Sous offre
+surface_positive,plateforme:PLT-00249,plateforme,PLT-00249,249,surface_positive,,2022-04-18,vente,Villa,Louga,Linguère,162813000,FCFA,,2,2,Vendu
+surface_positive,plateforme:PLT-00507,plateforme,PLT-00507,507,surface_positive,,2023-09-10,vente,Appartement,Kaolack,Kaolack,85240000,FCFA,,6,3,Vendu
+prix_ou_loyer_positif,plateforme:PLT-00676,plateforme,PLT-00676,676,prix_ou_loyer_positif,,2021-07-24,vente,Terrain,Fatick,Gossas,à négocier,FCFA,472.4,0,0,En vente
+surface_positive,plateforme:PLT-00687,plateforme,PLT-00687,687,surface_positive,,2023-12-24,vente,Appartement,Diourbel,Bambey,63774000,FCFA,,4,3,En vente
+prix_ou_loyer_positif,plateforme:PLT-00712,plateforme,PLT-00712,712,prix_ou_loyer_positif,,2023-06-27,vente,Appartement,Kaolack,Kaolack,à négocier,FCFA,113.3,5,2,En vente
+surface_positive,plateforme:PLT-00729,plateforme,PLT-00729,729,surface_positive,salles_bain_coherentes,2025-12-03,location,Maison,Saint-Louis,Podor,575000,FCFA/mois,,1,4,Loué
+surface_positive,agence:AGT-00826,agence,AGT-00826,6,surface_positive,,12/09/2023,,Appartement,Louga,Louga,31286000,,-30,3,1,Vendu
+prix_ou_loyer_positif,agence:AGT-00950,agence,AGT-00950,130,prix_ou_loyer_positif,,23/12/2019,,Appartement,Fatick,Kaolack-Fatick,0,,66.6,1,3,Vendu
+prix_ou_loyer_positif,agence:AGT-00994,agence,AGT-00994,174,prix_ou_loyer_positif,periodicite_connue,04/02/2025,,Terrain,Kaffrine,Koungheul,0,,1250.6,0,0,Disponible
+prix_ou_loyer_positif,agence:AGT-01044,agence,AGT-01044,224,prix_ou_loyer_positif,,02/02/2019,,Maison,Fatick,Gossas,0,,188.5,3,2,Vendu
+surface_positive,agence:AGT-01065,agence,AGT-01065,245,surface_positive,,02/09/2018,,Appartement,Kolda,Médina Yoro Foulah,47828000,,-25,6,1,Vendu
+surface_positive,agence:AGT-01238,agence,AGT-01238,418,surface_positive,,24/08/2019,,Terrain,Kédougou,Kédougou,15497000,,-30,0,0,En vente
+prix_ou_loyer_positif,agence:AGT-01302,agence,AGT-01302,482,prix_ou_loyer_positif,periodicite_connue,14/10/2022,,Studio,Kolda,Médina Yoro Foulah,0,,32.5,1,1,Disponible
+prix_ou_loyer_positif,agence:AGT-01342,agence,AGT-01342,522,prix_ou_loyer_positif,,09/04/2020,,Appartement,Matam,Ourossogui,0,,52.4,6,4,Vendu
+surface_positive,agence:AGT-01356,agence,AGT-01356,536,surface_positive,,08/06/2021,,Villa,Kaolack,Kaolack,224970000,,-12,6,4,Vendu
+surface_positive,particuliers:PRT-01464,particuliers,PRT-01464,4,surface_positive,periodicite_connue,2019-06-29,location,Maison,Saint-Louis,Saint-Louis,490000,,,1,2,Loué
+surface_positive,particuliers:PRT-01468,particuliers,PRT-01468,8,surface_positive,periodicite_connue,23/02/2023,location,Appartement,Louga,Kébémer,555000,,,3,2,Loué
+surface_positive,particuliers:PRT-01471,particuliers,PRT-01471,11,surface_positive,,09/03/2024,vente,Maison,Dakar,Pikine,71415000,,,6,3,À confirmer
+prix_ou_loyer_positif,particuliers:PRT-01472,particuliers,PRT-01472,12,prix_ou_loyer_positif,,2021-06-24,vente,Maison,Kolda,Vélingara,,,60.2,1,2,En vente
+surface_positive,particuliers:PRT-01476,particuliers,PRT-01476,16,surface_positive,,02/01/2025,vente,Villa,Tambacounda,Goudiry,136663000,,,3,3,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01477,particuliers,PRT-01477,17,prix_ou_loyer_positif,,22/04/2024,vente,Villa,Fatick,Fatick,,,318.1,2,2,Vendu
+surface_positive,particuliers:PRT-01484,particuliers,PRT-01484,24,surface_positive,,16/01/2023,vente,Appartement,Saint-Louis,Saint-Louis,68635000,,,6,2,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01485,particuliers,PRT-01485,25,prix_ou_loyer_positif,periodicite_connue,04/11/2022,location,Maison,Kaolack,Guinguinéo,,,222.4,4,4,Loué
+prix_ou_loyer_positif,particuliers:PRT-01496,particuliers,PRT-01496,36,prix_ou_loyer_positif,periodicite_connue,2024-01-17,location,Villa,Thiès,Mbour,,,427.0,5,1,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01499,particuliers,PRT-01499,39,prix_ou_loyer_positif,,30/06/2018,vente,Villa,Kaolack,Nioro du Rip,,,219.9,2,4,En vente
+prix_ou_loyer_positif,particuliers:PRT-01503,particuliers,PRT-01503,43,prix_ou_loyer_positif,periodicite_connue,24/11/2023,location,Maison,Sédhiou,Sédhiou,,,198.2,1,1,Loué
+prix_ou_loyer_positif,particuliers:PRT-01517,particuliers,PRT-01517,57,prix_ou_loyer_positif,periodicite_connue,2023-11-19,location,Terrain,Fatick,Gossas,,,754.2,0,0,Loué
+surface_positive,particuliers:PRT-01520,particuliers,PRT-01520,60,surface_positive,,2024-11-02,vente,Terrain,Louga,Louga,68734000,,,0,0,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01523,particuliers,PRT-01523,63,prix_ou_loyer_positif,,13/01/2019,vente,Villa,Thiès,Mbour,,,198.1,6,3,Vendu
+surface_positive,particuliers:PRT-01526,particuliers,PRT-01526,66,surface_positive,,24/10/2024,vente,Villa,Saint-Louis,Saint-Louis,428851000,,,2,4,Vendu
+surface_positive,particuliers:PRT-01527,particuliers,PRT-01527,67,surface_positive,,14/06/2020,vente,Terrain,Thiès,Tivaouane,27665000,,,0,0,À confirmer
+prix_ou_loyer_positif,particuliers:PRT-01529,particuliers,PRT-01529,69,prix_ou_loyer_positif,periodicite_connue,2021-05-30,location,Studio,Kolda,Vélingara,,,22.5,4,2,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01530,particuliers,PRT-01530,70,prix_ou_loyer_positif,periodicite_connue,06/12/2023,location,Studio,Kaolack,Nioro du Rip,,,24.8,3,1,Loué
+surface_positive,particuliers:PRT-01535,particuliers,PRT-01535,75,surface_positive,,2020-03-07,vente,Terrain,Dakar,Keur Massar,42580000,,,0,0,En vente
+surface_positive,particuliers:PRT-01536,particuliers,PRT-01536,76,surface_positive,,14/07/2022,vente,Studio,Kaffrine,Kaffrine,13317000,,,5,1,À confirmer
+prix_ou_loyer_positif,particuliers:PRT-01537,particuliers,PRT-01537,77,prix_ou_loyer_positif,,2022-09-07,vente,Appartement,Kolda,Vélingara,,,123.0,6,2,En vente
+surface_positive,particuliers:PRT-01545,particuliers,PRT-01545,85,surface_positive,,25/09/2024,vente,Appartement,Sédhiou,Sédhiou,68287000,,,1,1,En vente
+surface_positive,particuliers:PRT-01548,particuliers,PRT-01548,88,surface_positive,,2022-12-21,vente,Terrain,Sédhiou,Sédhiou,83821000,,,0,0,En vente
+surface_positive,particuliers:PRT-01550,particuliers,PRT-01550,90,surface_positive,,16/07/2019,vente,Maison,Diourbel,Bambey,167356000,,,4,4,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01563,particuliers,PRT-01563,103,prix_ou_loyer_positif,,2019-08-24,vente,Studio,Kaffrine,Birkelane,None FCFA,,32.4,4,2,En vente
+surface_positive,particuliers:PRT-01565,particuliers,PRT-01565,105,surface_positive,,21/12/2020,vente,Villa,Sédhiou,Bounkiling,361348000,,,6,2,Vendu
+surface_positive,particuliers:PRT-01571,particuliers,PRT-01571,111,surface_positive,periodicite_connue,2022-04-08,location,Appartement,Kolda,Médina Yoro Foulah,215000,,,6,4,Disponible
+surface_positive,particuliers:PRT-01573,particuliers,PRT-01573,113,surface_positive,,19/03/2025,vente,Maison,Kaolack,Guinguinéo,53901000,,,6,2,En vente
+surface_positive,particuliers:PRT-01581,particuliers,PRT-01581,121,surface_positive,,2022-05-02,vente,Appartement,Kaolack,Nioro du Rip,37701000,,,3,4,En vente
+surface_positive,particuliers:PRT-01586,particuliers,PRT-01586,126,surface_positive,periodicite_connue,2019-09-06,location,Appartement,Fatick,Kaolack-Fatick,465000,,,1,1,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01592,particuliers,PRT-01592,132,prix_ou_loyer_positif,periodicite_connue,2022-10-20,location,Terrain,Ziguinchor,Bignona,,,1099.1,0,0,Loué
+surface_positive,particuliers:PRT-01593,particuliers,PRT-01593,133,surface_positive,periodicite_connue,29/07/2020,location,Appartement,Dakar,Dakar,735000,,,2,2,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01599,particuliers,PRT-01599,139,prix_ou_loyer_positif,periodicite_connue,2021-06-02,location,Appartement,Saint-Louis,Podor,,,105.0,1,2,Disponible
+surface_positive,particuliers:PRT-01617,particuliers,PRT-01617,157,surface_positive,,2024-07-31,vente,Maison,Sédhiou,Sédhiou,175172000 FCFA,,,2,4,À confirmer
+prix_ou_loyer_positif,particuliers:PRT-01619,particuliers,PRT-01619,159,prix_ou_loyer_positif,,17/04/2019,vente,Maison,Thiès,Mbour,,,151.3,2,1,En vente
+surface_positive,particuliers:PRT-01629,particuliers,PRT-01629,169,surface_positive,periodicite_connue,16/04/2018,location,Terrain,Dakar,Guédiawaye,210000,,,0,0,Loué
+surface_positive,particuliers:PRT-01630,particuliers,PRT-01630,170,surface_positive,,12/02/2021,vente,Maison,Thiès,Tivaouane,67985000,,,6,1,En vente
+prix_ou_loyer_positif,particuliers:PRT-01632,particuliers,PRT-01632,172,prix_ou_loyer_positif,periodicite_connue,2025-09-04,location,Studio,Thiès,Tivaouane,,,33.7,3,1,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01642,particuliers,PRT-01642,182,prix_ou_loyer_positif,periodicite_connue,2022-11-25,location,Terrain,Diourbel,Bambey,,,118.5,0,0,Loué
+prix_ou_loyer_positif,particuliers:PRT-01644,particuliers,PRT-01644,184,prix_ou_loyer_positif,,2018-10-05,vente,Terrain,Thiès,Tivaouane,,,1348.5,0,0,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01646,particuliers,PRT-01646,186,prix_ou_loyer_positif,,23/10/2025,vente,Villa,Kaffrine,Koungheul,,,248.4,6,1,En vente
+prix_ou_loyer_positif,particuliers:PRT-01649,particuliers,PRT-01649,189,prix_ou_loyer_positif,periodicite_connue,10/06/2023,location,Terrain,Thiès,Joal-Fadiouth,,,1446.1,0,0,Disponible
+prix_ou_loyer_positif ; surface_positive,particuliers:PRT-01665,particuliers,PRT-01665,205,prix_ou_loyer_positif ; surface_positive,,27/09/2023,vente,Terrain,Kédougou,Saraya,,,,0,0,Vendu
+surface_positive,particuliers:PRT-01680,particuliers,PRT-01680,220,surface_positive,,28/04/2023,vente,Terrain,Kédougou,Saraya,72106000,,,0,0,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01690,particuliers,PRT-01690,230,prix_ou_loyer_positif,,04/03/2025,vente,Terrain,Kaolack,Guinguinéo,,,908.0,0,0,En vente
+prix_ou_loyer_positif ; surface_positive,particuliers:PRT-01709,particuliers,PRT-01709,249,prix_ou_loyer_positif ; surface_positive,periodicite_connue,05/11/2020,location,Appartement,Kaffrine,Birkelane,,,,6,4,Loué
+surface_positive,particuliers:PRT-01712,particuliers,PRT-01712,252,surface_positive,,20/08/2019,vente,Maison,Diourbel,Diourbel,142239000,,,2,2,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01719,particuliers,PRT-01719,259,prix_ou_loyer_positif,periodicite_connue,25/09/2022,location,Villa,Kédougou,Kédougou,,,161.5,4,3,Loué
+prix_ou_loyer_positif,particuliers:PRT-01720,particuliers,PRT-01720,260,prix_ou_loyer_positif,periodicite_connue,2020-07-09,location,Maison,Ziguinchor,Ziguinchor,,,105.4,3,1,Loué
+surface_positive,particuliers:PRT-01721,particuliers,PRT-01721,261,surface_positive,periodicite_connue,08/12/2024,location,Terrain,Louga,Linguère,105000,,,0,0,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01724,particuliers,PRT-01724,264,prix_ou_loyer_positif,salles_bain_coherentes,21/11/2024,vente,Local commercial,Fatick,Gossas,,,293.9,0,4,En vente
+surface_positive,particuliers:PRT-01727,particuliers,PRT-01727,267,surface_positive,,30/05/2024,vente,Villa,Ziguinchor,Ziguinchor,197255000,,,4,3,À confirmer
+prix_ou_loyer_positif,particuliers:PRT-01736,particuliers,PRT-01736,276,prix_ou_loyer_positif,periodicite_connue,09/03/2022,location,Appartement,Diourbel,Bambey,,,84.7,5,1,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01739,particuliers,PRT-01739,279,prix_ou_loyer_positif,,2021-07-09,vente,Appartement,Saint-Louis,Saint-Louis,,,134.4,6,1,Vendu
+prix_ou_loyer_positif ; surface_positive,particuliers:PRT-01754,particuliers,PRT-01754,294,prix_ou_loyer_positif ; surface_positive,periodicite_connue,2025-11-05,location,Appartement,Kaffrine,Kaffrine,,,,2,2,Loué
+surface_positive,particuliers:PRT-01755,particuliers,PRT-01755,295,surface_positive,,04/12/2024,vente,Maison,Kaolack,Guinguinéo,146326000,,,4,1,Vendu
+surface_positive,particuliers:PRT-01759,particuliers,PRT-01759,299,surface_positive,,2025-11-01,vente,Terrain,Diourbel,Diourbel,51354000,,,0,0,En vente
+prix_ou_loyer_positif ; surface_positive,particuliers:PRT-01761,particuliers,PRT-01761,301,prix_ou_loyer_positif ; surface_positive,,07/07/2018,vente,Terrain,Kaolack,Kaolack,,,,0,0,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01765,particuliers,PRT-01765,305,prix_ou_loyer_positif,,06/10/2019,vente,Chambre,Dakar,Dakar,,,12.1,3,0,En vente
+prix_ou_loyer_positif,particuliers:PRT-01773,particuliers,PRT-01773,313,prix_ou_loyer_positif,periodicite_connue,17/10/2025,location,Studio,Diourbel,Diourbel,,,35.4,1,3,Loué
+surface_positive,particuliers:PRT-01774,particuliers,PRT-01774,314,surface_positive,periodicite_connue,14/02/2020,location,Studio,Kaffrine,Kaffrine,240000,,,5,2,Disponible
+surface_positive,particuliers:PRT-01777,particuliers,PRT-01777,317,surface_positive,periodicite_connue,30/09/2025,location,Villa,Matam,Kanel,1210000,,,1,3,Disponible
+surface_positive,particuliers:PRT-01778,particuliers,PRT-01778,318,surface_positive,periodicite_connue,03/06/2020,location,Villa,Saint-Louis,Richard-Toll,705000,,quatre-vingt,2,4,Loué
+prix_ou_loyer_positif,particuliers:PRT-01782,particuliers,PRT-01782,322,prix_ou_loyer_positif,periodicite_connue,20/12/2025,location,Local commercial,Thiès,Joal-Fadiouth,,,228.6,0,1,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01791,particuliers,PRT-01791,331,prix_ou_loyer_positif,,01/06/2022,vente,Chambre,Saint-Louis,Podor,,,11.1,3,0,En vente
+surface_positive,particuliers:PRT-01798,particuliers,PRT-01798,338,surface_positive,,2020-12-03,vente,Appartement,Kaolack,Guinguinéo,87912000,,,6,2,Vendu
+surface_positive,particuliers:PRT-01802,particuliers,PRT-01802,342,surface_positive,periodicite_connue,22/08/2023,location,Chambre,Kaffrine,Birkelane,90000,,quatre-vingt,3,0,Disponible
+surface_positive,particuliers:PRT-01814,particuliers,PRT-01814,354,surface_positive,,2019-09-17,vente,Terrain,Dakar,Dakar,20913000,,,0,0,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01816,particuliers,PRT-01816,356,prix_ou_loyer_positif,,09/03/2020,vente,Appartement,Thiès,Tivaouane,,,70.4,5,1,En vente
+surface_positive,particuliers:PRT-01817,particuliers,PRT-01817,357,surface_positive,,22/12/2018,vente,Maison,Sédhiou,Sédhiou,61716000,,,1,2,En vente
+surface_positive,particuliers:PRT-01823,particuliers,PRT-01823,363,surface_positive,periodicite_connue ; salles_bain_coherentes,2019-10-11,location,Villa,Louga,Linguère,700000,,,1,4,Loué
+surface_positive,particuliers:PRT-01831,particuliers,PRT-01831,371,surface_positive,periodicite_connue,2019-05-15,location,Studio,Fatick,Gossas,105000,,,6,1,Loué
+prix_ou_loyer_positif,particuliers:PRT-01836,particuliers,PRT-01836,376,prix_ou_loyer_positif,,2019-10-11,vente,Terrain,Fatick,Fatick,,,1288.2,0,0,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01838,particuliers,PRT-01838,378,prix_ou_loyer_positif,,14/11/2023,vente,Villa,Fatick,Gossas,,,436.1,4,2,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01842,particuliers,PRT-01842,382,prix_ou_loyer_positif,,11/10/2018,vente,Appartement,Diourbel,Touba,,,168.5,4,3,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01843,particuliers,PRT-01843,383,prix_ou_loyer_positif,periodicite_connue,2018-01-29,location,Maison,Ziguinchor,Bignona,,,87.4,5,4,Disponible
+surface_positive,particuliers:PRT-01845,particuliers,PRT-01845,385,surface_positive,,19/05/2018,vente,Chambre,Louga,Louga,16853000,,,2,0,En vente
+prix_ou_loyer_positif,particuliers:PRT-01855,particuliers,PRT-01855,395,prix_ou_loyer_positif,,27/05/2024,vente,Appartement,Saint-Louis,Saint-Louis,,,59.0,4,1,En vente
+prix_ou_loyer_positif,particuliers:PRT-01861,particuliers,PRT-01861,401,prix_ou_loyer_positif,,08/05/2022,vente,Studio,Kaolack,Guinguinéo,,,25.8,5,3,Vendu
+surface_positive,particuliers:PRT-01862,particuliers,PRT-01862,402,surface_positive,,2019-10-08,vente,Studio,Dakar,Pikine,20863000,,,2,2,En vente
+prix_ou_loyer_positif,particuliers:PRT-01864,particuliers,PRT-01864,404,prix_ou_loyer_positif,periodicite_connue,2024-01-22,location,Maison,Kolda,Médina Yoro Foulah,,,84.8,6,3,Disponible
+surface_positive,particuliers:PRT-01874,particuliers,PRT-01874,414,surface_positive,periodicite_connue,27/06/2019,location,Maison,Thiès,Joal-Fadiouth,795000,,,6,4,Loué
+prix_ou_loyer_positif,particuliers:PRT-01876,particuliers,PRT-01876,416,prix_ou_loyer_positif,,2020-01-20,vente,Chambre,Kaffrine,Birkelane,,,29.6,5,0,En vente
+surface_positive,particuliers:PRT-01883,particuliers,PRT-01883,423,surface_positive,,2021-07-27,vente,Maison,Matam,Kanel,145509000,,,1,2,Vendu
+surface_positive,particuliers:PRT-01901,particuliers,PRT-01901,441,surface_positive,,14/06/2019,vente,Maison,Kédougou,Saraya,150291000,,quatre-vingt,2,4,Vendu
+surface_positive,particuliers:PRT-01903,particuliers,PRT-01903,443,surface_positive,,2024-05-16,vente,Studio,Sédhiou,Sédhiou,43824000,,,4,4,En vente
+surface_positive,particuliers:PRT-01920,particuliers,PRT-01920,460,surface_positive,,29/09/2022,vente,Maison,Fatick,Kaolack-Fatick,103807000,,,4,4,En vente
+surface_positive,particuliers:PRT-01924,particuliers,PRT-01924,464,surface_positive,periodicite_connue,06/03/2025,location,Studio,Ziguinchor,Oussouye,180000,,,2,1,Disponible
+prix_ou_loyer_positif,particuliers:PRT-01942,particuliers,PRT-01942,482,prix_ou_loyer_positif,,13/08/2018,vente,Villa,Thiès,Tivaouane,,,257.2,1,3,Vendu
+surface_positive,particuliers:PRT-01945,particuliers,PRT-01945,485,surface_positive,periodicite_connue,27/09/2021,location,Studio,Saint-Louis,Richard-Toll,160000,,,2,1,Disponible
+surface_positive,particuliers:PRT-01952,particuliers,PRT-01952,492,surface_positive,periodicite_connue,03/08/2024,location,Studio,Tambacounda,Bakel,160000,,quatre-vingt,1,1,Disponible
+surface_positive,particuliers:PRT-01956,particuliers,PRT-01956,496,surface_positive,periodicite_connue,2023-10-25,location,Maison,Tambacounda,Goudiry,580000,,,2,1,Disponible
+surface_positive,particuliers:PRT-01962,particuliers,PRT-01962,502,surface_positive,periodicite_connue,2024-06-04,location,Maison,Kédougou,Salémata,755000,,,4,1,Loué
+prix_ou_loyer_positif,particuliers:PRT-01966,particuliers,PRT-01966,506,prix_ou_loyer_positif,,14/10/2022,vente,Maison,Ziguinchor,Ziguinchor,,,171.3,5,1,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01975,particuliers,PRT-01975,515,prix_ou_loyer_positif,,2022-03-10,vente,Terrain,Kolda,Médina Yoro Foulah,,,381.2,0,0,Vendu
+surface_positive,particuliers:PRT-01985,particuliers,PRT-01985,525,surface_positive,,2019-11-15,vente,Villa,Dakar,Pikine,262304000,,,2,2,Vendu
+surface_positive,particuliers:PRT-01986,particuliers,PRT-01986,526,surface_positive,,30/01/2018,vente,Maison,Thiès,Thiès,97312000,,,6,4,En vente
+prix_ou_loyer_positif,particuliers:PRT-01990,particuliers,PRT-01990,530,prix_ou_loyer_positif,,14/08/2019,vente,Appartement,Diourbel,Mbacké,,,166.2,6,2,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01992,particuliers,PRT-01992,532,prix_ou_loyer_positif,,2025-10-15,vente,Villa,Saint-Louis,Saint-Louis,,,392.4,1,1,Vendu
+prix_ou_loyer_positif,particuliers:PRT-01993,particuliers,PRT-01993,533,prix_ou_loyer_positif,,2022-08-24,vente,Maison,Matam,Ourossogui,,,98.2,4,1,En vente
+surface_positive,particuliers:PRT-01995,particuliers,PRT-01995,535,surface_positive,,2018-05-22,vente,Appartement,Dakar,Rufisque,70834000,,,2,4,Vendu
+surface_positive,particuliers:PRT-01996,particuliers,PRT-01996,536,surface_positive,,16/05/2022,vente,Maison,Matam,Matam,173078000,,,3,3,Vendu
+surface_positive,particuliers:PRT-02000,particuliers,PRT-02000,540,surface_positive,periodicite_connue,2023-04-28,location,Studio,Matam,Ourossogui,245000,,,6,2,Loué
+prix_ou_loyer_positif,particuliers:PRT-02001,particuliers,PRT-02001,541,prix_ou_loyer_positif,,19/06/2019,vente,Maison,Louga,Linguère,,,87.2,3,1,Vendu
+surface_positive,particuliers:PRT-02002,particuliers,PRT-02002,542,surface_positive,,21/07/2024,vente,Studio,Tambacounda,Tambacounda,12462000,,,1,1,En vente
+surface_positive,particuliers:PRT-02012,particuliers,PRT-02012,552,surface_positive,,2024-05-16,vente,Appartement,Matam,Matam,39934000,,,1,1,En vente
+prix_ou_loyer_positif,particuliers:PRT-02018,particuliers,PRT-02018,558,prix_ou_loyer_positif,,19/06/2021,vente,Studio,Kaolack,Guinguinéo,,,25.3,6,1,En vente
+prix_ou_loyer_positif ; surface_positive,particuliers:PRT-02020,particuliers,PRT-02020,560,prix_ou_loyer_positif ; surface_positive,,14/12/2022,vente,Terrain,Ziguinchor,Bignona,,,,0,0,Vendu
+surface_positive,particuliers:PRT-02026,particuliers,PRT-02026,566,surface_positive,,07/09/2018,vente,Terrain,Ziguinchor,Bignona,59097000,,,0,0,En vente
+surface_positive,particuliers:PRT-02027,particuliers,PRT-02027,567,surface_positive,,10/11/2023,vente,Appartement,Louga,Kébémer,58826000,,,6,2,En vente
+prix_ou_loyer_positif,particuliers:PRT-02030,particuliers,PRT-02030,570,prix_ou_loyer_positif,,2022-04-18,vente,Chambre,Diourbel,Bambey,,,27.5,3,0,En vente
+surface_positive,particuliers:PRT-02035,particuliers,PRT-02035,575,surface_positive,periodicite_connue,29/12/2024,location,Villa,Louga,Linguère,515000,,,2,1,Disponible
+surface_positive,particuliers:PRT-02041,particuliers,PRT-02041,581,surface_positive,periodicite_connue,09/02/2021,location,Terrain,Kolda,Médina Yoro Foulah,175000,,,0,0,Disponible
+prix_ou_loyer_positif,particuliers:PRT-02043,particuliers,PRT-02043,583,prix_ou_loyer_positif,,03/02/2020,vente,Maison,Ziguinchor,Ziguinchor,,,123.3,1,3,En vente
+prix_ou_loyer_positif ; surface_positive,particuliers:PRT-02046,particuliers,PRT-02046,586,prix_ou_loyer_positif ; surface_positive,periodicite_connue,2019-01-02,location,Maison,Kaffrine,Koungheul,None FCFA,,,3,4,Disponible
+prix_ou_loyer_positif,particuliers:PRT-02050,particuliers,PRT-02050,590,prix_ou_loyer_positif,,2019-11-10,vente,Terrain,Thiès,Mbour,,,516.1,0,0,Vendu
+surface_positive,particuliers:PRT-02054,particuliers,PRT-02054,594,surface_positive,,2024-04-11,vente,Terrain,Fatick,Kaolack-Fatick,87172000,,,0,0,En vente
+prix_ou_loyer_positif,particuliers:PRT-02074,particuliers,PRT-02074,614,prix_ou_loyer_positif,periodicite_connue,22/10/2022,location,Terrain,Kolda,Médina Yoro Foulah,,,241.4,0,0,Disponible
+surface_positive,particuliers:PRT-02091,particuliers,PRT-02091,631,surface_positive,,2024-11-14,vente,Studio,Sédhiou,Bounkiling,18182000 FCFA,,,5,2,Vendu
+prix_ou_loyer_positif,particuliers:PRT-02093,particuliers,PRT-02093,633,prix_ou_loyer_positif,,2024-04-25,vente,Studio,Kaffrine,Birkelane,,,25.4,6,4,Vendu
+prix_ou_loyer_positif,particuliers:PRT-02113,particuliers,PRT-02113,653,prix_ou_loyer_positif,periodicite_connue,02/02/2024,location,Maison,Matam,Matam,,,99.8,4,2,Disponible
+surface_positive,particuliers:PRT-02118,particuliers,PRT-02118,658,surface_positive,,14/10/2019,vente,Appartement,Kédougou,Saraya,57035000 FCFA,,,1,2,Vendu
+prix_ou_loyer_positif,particuliers:PRT-02122,particuliers,PRT-02122,662,prix_ou_loyer_positif,,2021-11-04,vente,Chambre,Dakar,Pikine,,,26.1,4,0,À confirmer
+surface_positive,particuliers:PRT-02123,particuliers,PRT-02123,663,surface_positive,periodicite_connue,2018-03-18,location,Appartement,Saint-Louis,Saint-Louis,220000,,,1,2,Loué
+surface_positive,particuliers:PRT-02124,particuliers,PRT-02124,664,surface_positive,,19/10/2019,vente,Maison,Saint-Louis,Richard-Toll,88150000,,,5,2,Vendu
+surface_positive,particuliers:PRT-02125,particuliers,PRT-02125,665,surface_positive,,07/12/2023,vente,Maison,Louga,Louga,89136000,,,4,3,Vendu
+surface_positive,particuliers:PRT-02135,particuliers,PRT-02135,675,surface_positive,,12/11/2020,vente,Terrain,Sédhiou,Bounkiling,61359000,,,0,0,Vendu
+prix_ou_loyer_positif,particuliers:PRT-02137,particuliers,PRT-02137,677,prix_ou_loyer_positif,periodicite_connue,2018-02-19,location,Villa,Saint-Louis,Podor,,,151.3,5,3,Disponible
+prix_ou_loyer_positif,particuliers:PRT-02139,particuliers,PRT-02139,679,prix_ou_loyer_positif,,2020-12-08,vente,Maison,Kaffrine,Kaffrine,,,175.3,6,4,En vente
+surface_positive,particuliers:PRT-02140,particuliers,PRT-02140,680,surface_positive,,11/11/2023,vente,Studio,Kédougou,Kédougou,17504000,,,6,4,À confirmer
+surface_positive,particuliers:PRT-02148,particuliers,PRT-02148,688,surface_positive,,2021-09-11,vente,Villa,Kolda,Médina Yoro Foulah,395069000,,,4,2,En vente
+surface_positive,particuliers:PRT-02154,particuliers,PRT-02154,694,surface_positive,,2020-04-15,vente,Villa,Fatick,Fatick,104282000,,,6,1,Vendu
+surface_positive,particuliers:PRT-02162,particuliers,PRT-02162,702,surface_positive,,2023-01-13,vente,Villa,Kaffrine,Koungheul,239883000,,,5,2,Vendu
+prix_ou_loyer_positif,particuliers:PRT-02167,particuliers,PRT-02167,707,prix_ou_loyer_positif,,13/12/2023,vente,Chambre,Diourbel,Bambey,,,11.7,4,0,En vente
+surface_positive,particuliers:PRT-02169,particuliers,PRT-02169,709,surface_positive,,2025-08-19,vente,Appartement,Tambacounda,Goudiry,99378000,,,2,1,À confirmer
+surface_positive,particuliers:PRT-02186,particuliers,PRT-02186,726,surface_positive,,2025-02-16,vente,Terrain,Saint-Louis,Podor,49714000,,,0,0,Vendu
+prix_ou_loyer_positif,notaires:NOT-02208,notaires,NOT-02208,17,prix_ou_loyer_positif,,2021-03-13,,Appartement,Fatick,Kaolack-Fatick,,,73.3,2,,Vente conclue
+prix_ou_loyer_positif,notaires:NOT-02245,notaires,NOT-02245,54,prix_ou_loyer_positif,,2024-04-02,,Appartement,Saint-Louis,Podor,,,110.4,5,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02250,notaires,NOT-02250,59,prix_ou_loyer_positif,,2022-09-29,,Studio,Louga,Louga,,,44.6,1,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02285,notaires,NOT-02285,94,prix_ou_loyer_positif,,2021-01-11,,Terrain,Dakar,Pikine,,,1498.0,0,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02314,notaires,NOT-02314,123,prix_ou_loyer_positif,,2021-01-29,,Villa,Diourbel,Mbacké,,,364.1,1,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02330,notaires,NOT-02330,139,prix_ou_loyer_positif,,2024-02-25,,Maison,Kaolack,Guinguinéo,,,66.9,6,,Acte signé
+prix_ou_loyer_positif,notaires:NOT-02361,notaires,NOT-02361,170,prix_ou_loyer_positif,,2023-06-24,,Maison,Diourbel,Diourbel,,,85.0,4,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02362,notaires,NOT-02362,171,prix_ou_loyer_positif,,2019-05-01,,Appartement,Sédhiou,Goudomp,,,160.9,5,,Vendu
+date_interpretable,notaires:NOT-02394,notaires,NOT-02394,203,date_interpretable,,32/13/2024,,Maison,Kédougou,Kédougou,69528000.0,,238.3,2,,VENDU
+date_interpretable,notaires:NOT-02396,notaires,NOT-02396,205,date_interpretable,,32/13/2024,,Studio,Kolda,Vélingara,30816000.0,,54.5,2,,Vente conclue
+prix_ou_loyer_positif,notaires:NOT-02400,notaires,NOT-02400,209,prix_ou_loyer_positif,,2018-11-16,,Villa,Louga,Kébémer,,,214.8,3,,Vente conclue
+prix_ou_loyer_positif,notaires:NOT-02428,notaires,NOT-02428,237,prix_ou_loyer_positif,,2020-03-14,,Maison,Ziguinchor,Ziguinchor,,,211.9,1,,Vendu
+date_interpretable,notaires:NOT-02441,notaires,NOT-02441,250,date_interpretable,prix_m2_non_atypique,32/13/2024,,Villa,Ziguinchor,Ziguinchor,424671000.0,,149.4,3,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02474,notaires,NOT-02474,283,prix_ou_loyer_positif,,2024-05-28,,Appartement,Louga,Louga,,,153.9,4,,Vente conclue
+prix_ou_loyer_positif,notaires:NOT-02475,notaires,NOT-02475,284,prix_ou_loyer_positif,,2024-07-24,,Villa,Saint-Louis,Podor,,,121.2,1,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02484,notaires,NOT-02484,293,prix_ou_loyer_positif,,2024-10-02,,Maison,Kédougou,Kédougou,,,115.5,3,,Vendu
+prix_ou_loyer_positif,notaires:NOT-02556,notaires,NOT-02556,365,prix_ou_loyer_positif,,2022-01-07,,Studio,Kolda,Kolda,,,29.9,2,,Vendu
+date_interpretable,notaires:NOT-02559,notaires,NOT-02559,368,date_interpretable,,32/13/2024,,Maison,Dakar,Pikine,179791000.0,,207.9,1,,Vendu
+date_interpretable,notaires:NOT-02565,notaires,NOT-02565,374,date_interpretable,,32/13/2024,,Villa,Ziguinchor,Ziguinchor,266366000.0,,180.3,3,,Vendu
+date_interpretable,notaires:NOT-02584,notaires,NOT-02584,393,date_interpretable,,32/13/2024,,Maison,Louga,Kébémer,94166000.0,,96.3,3,,Vendu
+prix_ou_loyer_positif,historique:HIS-0072,historique,HIS-0072,72,prix_ou_loyer_positif,,2019-10-16,,Terrain,Ziguinchor,Bignona,,,190.8,0,0,
+prix_ou_loyer_positif,historique:HIS-0128,historique,HIS-0128,128,prix_ou_loyer_positif,,2018-05-16,,Terrain,Saint-Louis,Podor,,,"654,4",0,0,
+prix_ou_loyer_positif,historique:HIS-0251,historique,HIS-0251,251,prix_ou_loyer_positif,,27/03/2018,,Studio,Thiès,Mbour,,,43.7,1,3,
+prix_ou_loyer_positif,historique:HIS-0269,historique,HIS-0269,269,prix_ou_loyer_positif,,2018-09-21,,Appartement,Dakar,Keur Massar,,,148.7,3,4,
+prix_ou_loyer_positif,historique:HIS-0325,historique,HIS-0325,325,prix_ou_loyer_positif,salles_bain_coherentes,2019-04-17,,APPARTEMENT,Thiès,Thiès,,,67.2,1,4,
+prix_ou_loyer_positif,historique:HIS-0372,historique,HIS-0372,372,prix_ou_loyer_positif,,2018-08-20,,Studio,Saint-Louis,Saint-Louis,,,40.1,6,4,
+prix_ou_loyer_positif,historique:HIS-0423,historique,HIS-0423,423,prix_ou_loyer_positif,,12/12/2019,,LOCAL COMMERCIAL,Louga,Linguère,,,121.9,0,1,
+prix_ou_loyer_positif,historique:HIS-0430,historique,HIS-0430,430,prix_ou_loyer_positif,salles_bain_coherentes,2019-09-02,,Local commercial,Kaolack,Kaolack,,,106.9,0,3,
+prix_ou_loyer_positif,historique:HIS-0478,historique,HIS-0478,478,prix_ou_loyer_positif,,02/12/2018,,LOCAL COMMERCIAL,Diourbel,Bambey,,,"52,3",0,2,
+prix_ou_loyer_positif,historique:HIS-0506,historique,HIS-0506,506,prix_ou_loyer_positif,,2018-07-22,,Maison,Matam,Ourossogui,,,208.8,1,1,

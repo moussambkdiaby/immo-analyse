@@ -1,7 +1,11 @@
-# Dépendances d'ImmoAnalyse (voir README pour l'installation)
+# Dépendances communes à tous les modules d'ImmoAnalyse (voir README.md)
 pandas>=2.2
 numpy>=1.26
 openpyxl>=3.1        # lecture du fichier Excel de l'agence
-matplotlib>=3.9      # graphiques du notebook
-ipykernel>=6.29      # exécuter le notebook dans VS Code / Jupyter
+matplotlib>=3.9      # graphiques des notebooks
+ipykernel>=6.29      # exécuter les notebooks dans VS Code / Jupyter
 pytest>=8.0          # tests automatisés
+# Module 2 (préparation ML) : décommenter quand les compétences 5 à 9 seront traitées
+# scikit-learn>=1.4
+# scipy>=1.11
+# joblib>=1.3

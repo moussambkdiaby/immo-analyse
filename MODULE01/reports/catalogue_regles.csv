@@ -1,0 +1,30 @@
+﻿code,regle,gravite,champ,description,justification
+B01,identifiant_present,bloquante,id_local,L'identifiant local est renseigné,"Cahier § 6.1 : obligatoire dans chaque source, quarantaine si absent"
+B02,transaction_valide,bloquante,type_transaction,Vente ou location après normalisation,Cahier § 6.1 : quarantaine si non interprétable
+B03,prix_ou_loyer_positif,bloquante,montant,Prix (vente) ou loyer (location) numérique strictement positif,"regles_metier.md : prix absent, non numérique ou <= 0 -> quarantaine"
+B04,surface_positive,bloquante,surface_m2,Surface numérique strictement positive,"regles_metier.md : surface absente, non numérique ou <= 0 -> quarantaine"
+B05,date_interpretable,bloquante,date_collecte,Date lisible et possible (pas 32/13/2024),regles_metier.md : date non interprétable ou impossible -> quarantaine
+B06,date_non_future,bloquante,date_collecte,Date non postérieure à la date d'exécution,Cahier § 6.1 : non future par rapport à la date d'exécution
+B07,type_bien_valide,bloquante,type_bien,Type de bien parmi les 7 catégories du référentiel,Cahier § 6.1 : quarantaine si hors référentiel (regles_metier.md dit « avertissement » : on suit le cahier)
+A01,periodicite_connue,avertissement,periodicite,"Un loyer a une périodicité reconnue (mensuel, trimestriel...)","Cahier § 6.1 : signaler, ne pas deviner"
+A02,prix_vente_plausible,avertissement,montant,Prix de vente entre les seuils généraux,regles_metier.md : prix < 100 000 ou > 2 milliards FCFA = atypique
+A03,loyer_mensuel_plausible,avertissement,montant,Loyer mensuel entre 25 000 et 5 000 000 FCFA,Cahier § 6.2 (évalué seulement si la périodicité est mensuelle)
+A04,prix_dans_fourchette_categorie,avertissement,montant,Prix de vente dans la fourchette de sa catégorie,referentiel_categories.csv : fourchettes indicatives (hypothèses pédagogiques)
+A05,surface_plausible,avertissement,surface_m2,Surface entre 5 et 2 000 m²,"regles_metier.md : atypique, pas nécessairement faux"
+A06,surface_dans_fourchette_categorie,avertissement,surface_m2,Surface dans la fourchette de sa catégorie,referentiel_categories.csv : surfaces typiques
+A07,prix_m2_dans_plage_referentiel,avertissement,prix_m2,Prix au m² dans la plage déduite du référentiel,Cahier § 6.2 (plage déduite : prix min / surface max -> prix max / surface min)
+A08,prix_m2_non_atypique,avertissement,prix_m2,Prix au m² hors valeurs extrêmes de sa catégorie (règle de l'IQR),Complément statistique : la plage du référentiel est trop large pour détecter
+A09,chambres_valides,avertissement,chambres,Nombre de chambres : entier >= 0,Cahier § 6.1
+A10,salles_bain_valides,avertissement,salles_bain,Nombre de salles de bain : entier >= 0,Cahier § 6.1
+A11,chambres_non_atypiques,avertissement,chambres,Pas plus de 10 chambres pour un appartement ou un studio,Cahier § 6.2
+A12,salles_bain_coherentes,avertissement,salles_bain,Salles de bain <= chambres + 2,Cahier § 6.2
+A13,pieces_coherentes_type,avertissement,chambres,"Terrain sans pièce ; maison, villa, appartement avec au moins 1 chambre",Cahier § 6.1 : cohérent avec le type de bien
+A14,ville_reconnue,avertissement,ville,Ville renseignée et présente dans le référentiel géographique,"Cahier § 6.1 : signaler, ne pas corriger sans preuve"
+A15,region_reconnue,avertissement,region,Région renseignée et présente dans le référentiel,Cahier § 6.1
+A16,region_ville_coherentes,avertissement,region,La ville appartient bien à la région indiquée,"regles_metier.md : signaler, ne pas corriger sans preuve"
+A17,statut_coherent_transaction,avertissement,statut_source,Le statut est compatible avec la transaction écrite dans la source,"Cohérence interne (évaluée seulement quand la transaction est écrite, pas déduite du statut)"
+A18,dates_coherentes,avertissement,date_expiration,La date d'expiration n'est pas antérieure à la mise en ligne,Cahier § 6.1 : date_mise_a_jour >= date_collecte -> signaler
+A19,date_non_concentree,avertissement,date_collecte,Pas 20 annonces ou plus de la même source le même jour,Détection d'un import en masse (valeurs par défaut probables)
+A20,pas_de_doublon_probable,avertissement,id_bien,Aucun doublon probable dans les autres enregistrements,"Cahier § 6.1 : distinguer doublon exact, doublon probable et conflit"
+A21,pas_de_conflit_entre_enregistrements,avertissement,id_bien,"Aucun conflit (même bien, valeurs contradictoires)","Cahier § 6.1 / Axe 1 : les conflits sont signalés, pas résolus arbitrairement"
+A22,identifiant_unique,avertissement,id_bien,L'identifiant global n'apparaît qu'une fois,Cahier § 5.3 : un identifiant local n'est pas une clé fiable
