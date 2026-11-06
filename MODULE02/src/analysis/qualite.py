@@ -209,7 +209,7 @@ def rapport_markdown(rapport: dict, R: Resultats) -> str:
                             for k, n in sf["nombres"].items()])
     par_source = pd.DataFrame(sf["par_source"]).T.reset_index().rename(columns={"index": "source"})
 
-    manq_pivot = manq[~manq["colonne_absente"]].pivot(index="colonne", columns="source", values="taux_manquant_pct").fillna("-").reset_index()
+    manq_pivot = manq[~manq["colonne_absente"]].pivot(index="colonne", columns="source", values="taux_manquant_pct").astype(object).fillna("-").reset_index()
     conv_pivot = conv.pivot(index="champ", columns="source", values="erreurs").reset_index()
     conv_pivot["total"] = conv.groupby("champ")["erreurs"].sum().reindex(conv_pivot["champ"]).to_numpy()
 
